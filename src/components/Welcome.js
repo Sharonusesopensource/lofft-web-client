@@ -9,11 +9,12 @@ const Tag = () => {
 
   return (
     <div className="container">
-      <h1>
-        Live your{" "}
+      <h1 className="margin-right">
+        Change how we{" "}
         <u id="target" onMouseEnter={textToggle} onMouseLeave={textToggle}>
-          life:
-        </u>{" "}
+          WG
+        </u>
+        :{" "}
       </h1>
       <CountDownToLaunch />
       <Message />
