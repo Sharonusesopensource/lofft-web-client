@@ -4,7 +4,7 @@ import logo from "./../logo.png";
 const Header = () => {
   return (
     <header>
-      <img src={logo} alt="My WG Logo" className="logo" />
+      <img src={logo} alt="My WG Logo" className="logo animation-cycle" />
     </header>
   );
 };
