@@ -1,0 +1,30 @@
+#target {
+  cursor: pointer;
+}
+
+.InfoArea {
+  width: 45%;
+  text-align: justify;
+  h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.8rem;
+    border-bottom: 1px solid rgba($color: #fff, $alpha: 0.4);
+  }
+  p {
+    margin-top: 0px;
+    font-size: 1.5rem;
+  }
+}
+
+.Date {
+  margin-left: 25px;
+}
+
+.hide {
+  display: none;
+}
+
+.margin-right {
+  margin-right: 125px;
+}

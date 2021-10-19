@@ -1,12 +1,12 @@
-import logo from "./logo.png";
 import "./styling/App.scss";
+import Header from "./components/Header";
+import Welcome from "./components/Welcome";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
+    <div className="App wrapper">
+      <Header />
+      <Welcome />
     </div>
   );
 }
