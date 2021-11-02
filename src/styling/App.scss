@@ -1,5 +1,5 @@
 @import "components/fonts";
-@import "components/animation";
+// @import "components/animation";
 @import "components/header";
 @import "components/middleText";
 
@@ -28,5 +28,6 @@ body,
 }
 
 .App {
-  justify-content: center;
+  padding: 1rem;
+  background-color: aliceblue;
 }
