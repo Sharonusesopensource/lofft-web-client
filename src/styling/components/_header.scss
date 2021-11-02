@@ -5,10 +5,18 @@ header {
 }
 
 .logo {
-  width: 100px;
-  align-self: flex-start;
+  height: 3rem;
 }
 
 .nav {
   display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav > *{
+  margin: 0 1rem;
 }

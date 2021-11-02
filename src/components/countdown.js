@@ -33,9 +33,9 @@ let CountDownToLaunch = () => {
   }, []);
 
   return (
-    <h1 className="Date margin-left">
-      {`${dateTarget[0]}D - ${dateTarget[1]}H - ${dateTarget[2]}M - ${dateTarget[3]}S`}
-    </h1>
+    <h3>
+      {`${dateTarget[0]}D - ${dateTarget[1]}H - ${dateTarget[2]}M - ${dateTarget[3]}S until 🚀`}
+    </h3>
   );
 };
 
