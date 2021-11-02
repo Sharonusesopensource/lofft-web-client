@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 const EmailForm = () => {
   const [email, setEmail] = useState("");
@@ -14,7 +15,7 @@ const EmailForm = () => {
     <form onSubmit={handleSubmit}>
       <input type="text" value={email} onChange={handleChange}/>
       <button type="submit" style={{display:"none"}}/>
-      <div className="button">Sign up</div>
+      <Button color="lavender">Sign up</Button>
     </form>
   )
 }
