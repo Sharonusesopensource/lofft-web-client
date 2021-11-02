@@ -13,9 +13,9 @@ const EmailForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={email} onChange={handleChange}/>
+      <input type="text" value={email} onChange={handleChange} placeholder="email@domain.com"/>
       <button type="submit" style={{display:"none"}}/>
-      <Button color="lavender">Sign up</Button>
+      <Button color="lavender" style={{fontSize: "1.5rem"}}>Sign up</Button>
     </form>
   )
 }
