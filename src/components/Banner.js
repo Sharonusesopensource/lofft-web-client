@@ -1,4 +1,5 @@
 import people from "./../people.png"
+import EmailForm from "./EmailForm"
 
 const Banner = () => {
   return (
@@ -6,7 +7,7 @@ const Banner = () => {
       <div className="hero">
         <div>
           <h1>Hi, we're lofft, modern brand stewards for the digital generation.</h1>
-          <h1>EMAIL FORM</h1>
+          <EmailForm/>
         </div>
         <img src={people} alt="Illustration of people" className="people" />
       </div>
