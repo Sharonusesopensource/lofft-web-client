@@ -2,16 +2,10 @@
 // @import "components/animation";
 @import "components/header";
 @import "components/middleText";
+@import "components/banner";
 
 * {
   cursor: default;
-}
-
-html,
-body,
-#root,
-.App {
-  height: 100%;
 }
 
 .container {
@@ -28,5 +22,5 @@ body,
 }
 
 .App {
-  padding: 1rem;
+  padding: 1rem 3rem 0 3rem;
 }
