@@ -19,4 +19,9 @@ header {
 
 .nav > *{
   margin: 0 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-active {
+  border-bottom: 3px solid $lavender;
 }
