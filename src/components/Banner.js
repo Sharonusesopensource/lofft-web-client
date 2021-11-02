@@ -1,4 +1,4 @@
-import people from "./../people.png"
+import people from "./../people.svg"
 import EmailForm from "./EmailForm"
 
 const Banner = () => {
