@@ -10,8 +10,8 @@
 
   input{
     margin-right: 2rem;
-    width: 70%;
     font-size: 1.5rem;
+    width: 22rem;
   }
 }
 
@@ -21,7 +21,11 @@
 }
 
 .people {
-  width: 45vw;
   padding: 0 7rem;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.intext-logo {
+  padding-left: 1rem;
 }
