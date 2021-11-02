@@ -1,9 +1,10 @@
 const Message = () => (
   <div className="InfoArea margin-left hide">
-    <h3>MyWG: The new WG Experience</h3>
+    <h3>Lofft: The new Flatsharing Experience</h3>
     <p>
-      MyWG the solution to help you with all of your WG needs, join our mailing
-      list for continued updates before our launch on 01st January 2022
+      Lofft the solution to help you with all of your flatsharing needs,
+      launching <span id="dateText">January 01st 2021</span>, come back soon for
+      more information.
     </p>
   </div>
 );

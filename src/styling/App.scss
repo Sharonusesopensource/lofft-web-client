@@ -1,5 +1,6 @@
 @import "components/fonts";
-@import "components/animation";
+// The animation implies the background colour transition, this has been removed inline with the new logo and look
+// @import "components/animation";
 @import "components/header";
 @import "components/middleText";
 
@@ -16,7 +17,7 @@ body,
 
 .container {
   display: flex;
-  color: white;
+  // color: white;
   padding: 0 5%;
   margin-top: 200px;
   h1,
