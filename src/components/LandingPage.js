@@ -1,8 +1,12 @@
 import Banner from "./Banner"
+import People from "./People"
 
 const LandingPage = () => {
   return (
-    <Banner/>
+    <div className="about-us">
+      <Banner/>
+      <People/>
+    </div>
   )
 }
 
