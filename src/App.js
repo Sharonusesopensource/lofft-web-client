@@ -1,12 +1,10 @@
 import "./styling/App.scss";
-import Header from "./components/Header";
-import Welcome from "./components/Welcome";
+import People from "./components/People";
 
 function App() {
   return (
     <div className="App wrapper">
-      <Header />
-      <Welcome />
+      <People/>
     </div>
   );
 }
