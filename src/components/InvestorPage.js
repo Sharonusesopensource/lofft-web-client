@@ -1,6 +1,6 @@
 const InvestorPage = () => {
   return (
-    <h3>Please money</h3>
+    <h3>Investor Pitch</h3>
   )
 }
 
