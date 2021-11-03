@@ -1,10 +1,21 @@
 import "./styling/App.scss";
-import People from "./components/People";
+import Header from "./components/Header";
+import LandingPage from "./components/LandingPage";
+import InvestorPage from "./components/InvestorPage";
+
+import { useState } from "react";
 
 function App() {
+  const [showLanding, setShowLanding] = useState(true);
+  const togglePage = () => {
+    setShowLanding((prevState) => !prevState)
+  }
+
   return (
-    <div className="App wrapper">
-      <People/>
+    <div className="App">
+      <Header toggle={togglePage} isLanding={showLanding}/>
+     {showLanding && <LandingPage />}
+     {!showLanding && <InvestorPage />}
     </div>
   );
 }
