@@ -1,0 +1,41 @@
+.banner {
+  h1 {
+    font-size: 3rem;
+  }
+
+  form {
+    display: flex;
+    width: 100%;
+  }
+
+  input{
+    margin-right: 2rem;
+    font-size: 1.5rem;
+    width: 20rem;
+    border: 3px solid $lavender50;
+    border-radius: 0.5rem;
+    padding: 0 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  input:focus{
+    outline: none;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.people {
+  padding: 0 7rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.intext-logo {
+  padding-left: 1rem;
+}

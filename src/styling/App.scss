@@ -1,18 +1,12 @@
 @import "components/fonts";
-// The animation implies the background colour transition, this has been removed inline with the new logo and look
-// @import "components/animation";
+@import "components/colors";
 @import "components/header";
 @import "components/middleText";
+@import "components/banner";
+@import "components/buttons";
 
 * {
   cursor: default;
-}
-
-html,
-body,
-#root,
-.App {
-  height: 100%;
 }
 
 .container {
@@ -29,5 +23,6 @@ body,
 }
 
 .App {
-  justify-content: center;
+  padding: 1rem 3rem 0 3rem;
+  font-family: Archia, Arial, serif;
 }

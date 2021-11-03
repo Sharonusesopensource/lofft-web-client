@@ -1,9 +1,32 @@
 header {
-  // border-bottom: 1px solid rgba($color: #fff, $alpha: 0.4);
-  padding: 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  color: black;
 }
 
 .logo {
-  width: 100px;
-  align-self: flex-start;
+  height: 3rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link:hover:not(.nav-active) {
+  border-bottom: 3px solid $lavender50;
+}
+
+
+.nav > *{
+  margin: 0 1rem;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-active {
+  border-bottom: 3px solid $lavender;
 }
