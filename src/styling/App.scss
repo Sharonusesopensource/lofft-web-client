@@ -1,6 +1,5 @@
 @import "components/fonts";
 @import "components/colors";
-// @import "components/animation";
 @import "components/header";
 @import "components/middleText";
 @import "components/banner";
@@ -12,7 +11,7 @@
 
 .container {
   display: flex;
-  color: white;
+  // color: white;
   padding: 0 5%;
   margin-top: 200px;
   h1,

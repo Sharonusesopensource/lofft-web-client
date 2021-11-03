@@ -12,7 +12,7 @@ const Tag = () => {
       <h1 className="margin-right">
         Change how we{" "}
         <u id="target" onMouseEnter={textToggle} onMouseLeave={textToggle}>
-          WG
+          Flatshare
         </u>
         :{" "}
       </h1>
