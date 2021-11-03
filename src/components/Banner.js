@@ -7,7 +7,7 @@ const Banner = () => {
     <div className="banner">
       <div className="hero">
         <div>
-          <h1>Hi, we're<img class="intext-logo" alt="lofft" src={textlogo}></img>, modern brand stewards for the digital generation.</h1>
+          <h1>We're<img className="intext-logo" alt="lofft" src={textlogo}></img>, the brand new way to manage shared flats and accomodation <br/>- together.</h1>
           <EmailForm/>
         </div>
         <div className="img-container">

@@ -1,6 +1,6 @@
 const Button = (props) => {
   return (
-    <div className={`button ${props.color ? `button-${props.color}` : ""}`} style={props.style}>
+    <div className={`button ${props.color ? `button-${props.color}` : ""}`} style={props.style} onClick={props?.onClick}>
       {props.children}
     </div>
   )

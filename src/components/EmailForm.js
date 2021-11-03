@@ -9,13 +9,14 @@ const EmailForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    window.alert(`Thanks for signing up ${email} !`)
   }
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" value={email} onChange={handleChange} placeholder="email@domain.com"/>
+      <input type="email" value={email} onChange={handleChange} placeholder="email@domain.com"/>
       <button type="submit" style={{display:"none"}}/>
-      <Button color="lavender" style={{fontSize: "1.5rem"}}>Sign up</Button>
+      <Button color="lavender" style={{fontSize: "1.5rem"}} onClick={handleSubmit}>Sign up</Button>
     </form>
   )
 }
