@@ -14,6 +14,14 @@
     width: 20rem;
     border: 3px solid $lavender50;
     border-radius: 0.5rem;
+    padding: 0 1rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  input:focus{
+    outline: none;
   }
 }
 
