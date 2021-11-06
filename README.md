@@ -2,7 +2,7 @@
 
 In the project directory, you can run:
 
-### Starting the server
+### Starting the development server
 
 `yarn devstart`
 
