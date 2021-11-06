@@ -2,9 +2,15 @@
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   cursor: pointer;
+  width: fit-content;
 }
 
 .button-lavender {
   background-color: $lavender;
   color: white;
+}
+
+.button-white {
+  background-color: white;
+  color: $lavender;
 }
