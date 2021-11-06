@@ -20,12 +20,12 @@ const EmailForm = ({ status, message, onValidated }) => {
 
   return (
     <div className="emailform-container">
-      <p className="emailform-message">
-        {status === "success" && "Thanks for signing up!"}
-        {status === "sending" && "processing..."}
-        {status === "error" && "something went wong"}
-        {status === null && "Be the first to get updates from us"}
-      </p>
+
+        {status === "success" && <p className="emailform-message">Thanks for signing up!</p>}
+        {status === "sending" && <p className="emailform-message">processing...</p>}
+        {status === "error" && <p className="emailform-message" dangerouslySetInnerHTML={{ __html: message }} style={{color:"red"}}/>}
+        {status === null && <p className="emailform-message">Be the first to get updates from us</p>}
+
       <form onSubmit={handleSubmit}>
         <input type="email" value={email} onChange={handleChange} placeholder="email@domain.com"/>
         <button type="submit" style={{display:"none"}}/>
@@ -36,8 +36,7 @@ const EmailForm = ({ status, message, onValidated }) => {
 }
 
 const MailchimpForm = props => {
-    // const url = `https://genhybridsystems.us1.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
-    const url ="mailchimp.com"
+    const url = `https://app.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
     return (
         <div className="mailchimp-container">
             <MailchimpSubscribe
