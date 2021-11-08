@@ -1,9 +1,10 @@
 .contactform {
-  input {
+  input[type="text"], input[type="email"] {
     border: none;
     border-bottom: 1px solid grey;
     font-size: 1rem;
-    margin: 1rem;
+    margin: 1rem 0;
+    width: 100%;
   }
   input:focus {
     outline: 0;
@@ -11,5 +12,7 @@
 }
 
 .contactform {
-  margin-top: rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  width: 60%;
 }
