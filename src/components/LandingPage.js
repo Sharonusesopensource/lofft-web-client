@@ -1,8 +1,12 @@
 import Banner from "./Banner"
+import Footer from "./Footer"
 
 const LandingPage = () => {
   return (
-    <Banner/>
+    <div>
+      <Banner/>
+      <Footer/>
+    </div>
   )
 }
 
