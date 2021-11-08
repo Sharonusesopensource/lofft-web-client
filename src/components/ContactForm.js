@@ -1,4 +1,5 @@
 import { useState } from "react"
+import Button from "./Button"
 
 const ContactForm = () => {
   const [email, setEmail] = useState("")
@@ -21,10 +22,13 @@ const ContactForm = () => {
 
   return (
     <form className="contactform" onSubmit={handleSubmit}>
-      <input type="text" value={name} onChange={handleChangeName}/>
-      <input type="email" value={email} onChange={handleChangeEmail}/>
-      <input type="text" value={message} onChange={handleChangeMessage}/>
+      <div>
+        <input className="input-minimal" type="text" value={name} onChange={handleChangeName} placeholder="name"/>
+        <input className="input-minimal" type="email" value={email} onChange={handleChangeEmail} placeholder="email"/>
+      </div>
+      <input className="input-minimal" type="text" value={message} onChange={handleChangeMessage} placeholder="message"/>
       <button type="submit" style={{display: "none"}}/>
+      <Button color="lavender" style={{width: "fit-content", margin: "0 auto"}} >Send</Button>
     </form>
   )
 }
