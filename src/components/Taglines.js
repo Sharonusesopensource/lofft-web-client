@@ -9,7 +9,7 @@ const Taglines = () => {
 
       <div className="tilerow">
         <div className="tagline tile-half tile-lavender" style={{backgroundImage: `url(${hands})`}}>
-          <h3 style={{color: "white"}}>Meet your<br/>🤯<br/>people</h3>
+          <h3 style={{color: "white"}}>Meet your<br/>people</h3>
           <Button style={{margin: "0 auto"}} color="white">Tell me how</Button>
         </div>
         <div className="tagline tile-half tile-white">
