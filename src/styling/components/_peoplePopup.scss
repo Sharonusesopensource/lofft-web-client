@@ -1,0 +1,27 @@
+.hobby-bar {
+  border-top: 3px solid black;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.hobby-bar ul {
+  list-style: none;
+  padding-left: 0px;
+  display: -webkit-inline-box;
+}
+
+.hobby-bar ul li{
+  padding: 10px 20px;
+  position: relative;
+}
+
+.hobby-bar .active:before{
+  position: absolute;
+  content:'';
+  width: 25px;
+  height: 25px;
+  background: $lavender;
+  border-radius: 50%;
+  top:-30px;
+  left:10px;
+}
