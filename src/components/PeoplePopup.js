@@ -1,11 +1,24 @@
+import { useRef } from "react"
+
 import Slider from "./Slider"
 const PeoplePopup = ({ person, toggleModal }) => {
+  const userModal = useRef(null)
+
+  const closeModalOnOutsideClick = (e) => {
+    if (userModal.current && !userModal.current.contains(e.target)) {
+      toggleModal()
+    }
+  }
+
+  document.addEventListener("mousedown", closeModalOnOutsideClick)
+
   return (
-    <div className="member-frame">
+    <div className="member-frame" ref={userModal}>
       <img
         src={`/icons/close-icon.png`}
         alt=""
         id="close-model-icon"
+        className="button"
         onClick={toggleModal}
       />
       <div className="member-header">
@@ -32,7 +45,7 @@ const PeoplePopup = ({ person, toggleModal }) => {
                 <img
                   src={`/icons/${link.icon}`}
                   alt=""
-                  className="social-icon"
+                  className="social-icon button"
                 />
               </a>
             ))}
