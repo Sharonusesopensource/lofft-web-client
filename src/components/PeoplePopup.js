@@ -1,7 +1,13 @@
 import Slider from "./Slider"
-const PeoplePopup = ({ person }) => {
+const PeoplePopup = ({ person, toggleModal }) => {
   return (
     <div className="member-frame">
+      <img
+        src={`/icons/close-icon.png`}
+        alt=""
+        id="close-model-icon"
+        onClick={toggleModal}
+      />
       <div className="member-header">
         <h1>{person.name}</h1>
         <p>{person.description}</p>
@@ -14,7 +20,11 @@ const PeoplePopup = ({ person }) => {
           <Slider question="animal" value={person.media} />
         </div>
         <div className="member-right-panel">
-          <img src={`/people/${person.image}`} alt="" />
+          <img
+            src={`/people/${person.image}`}
+            alt=""
+            className="modal-avatar"
+          />
           <p>{person.role}</p>
           <div className="member-icons">
             {person.links.map((link) => (
