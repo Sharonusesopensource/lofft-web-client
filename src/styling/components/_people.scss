@@ -1,0 +1,45 @@
+.people-wrapper {
+  text-align: center;
+}
+
+.people-tagline {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.people-description {
+  color: grey;
+  margin: 0;
+}
+
+.people-container {
+  margin-top: 2rem;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.person {
+  padding: 1rem;
+  border: 3px solid $mint;
+  border-radius: 0.5rem;
+  margin: 0 1rem;
+}
+
+.person-image {
+  width: 250px;
+  padding: 2rem;
+}
+
+.person-name {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.person-role {
+  color: grey;
+}
+
+.person-about {
+  margin-bottom: 0;
+}

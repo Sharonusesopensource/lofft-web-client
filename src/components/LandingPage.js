@@ -1,6 +1,7 @@
 import Banner from "./Banner"
 import Taglines from "./Taglines"
 import PeoplePopup from "./PeoplePopup"
+import People from "./People"
 import { useState } from "react"
 
 const LandingPage = () => {
@@ -42,7 +43,11 @@ const LandingPage = () => {
     <div className="landingpage">
       <Banner />
       <Taglines />
-      <PeoplePopup person={person} />
+      <div className="about-us">
+        <Banner />
+        <People />
+        <PeoplePopup person={person} />
+      </div>
     </div>
   )
 }
