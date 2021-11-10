@@ -1,0 +1,36 @@
+.slider {
+  border-top: 3px solid black;
+  display: table;
+  margin-top: 20px;
+}
+
+.slider ul {
+  list-style: none;
+  padding-left: 0px;
+  display: -webkit-inline-box;
+}
+
+.slider ul li {
+  padding: 5px 10px;
+  position: relative;
+}
+
+.slider .active:before {
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  background: $lavender;
+  border-radius: 50%;
+  top: -30px;
+  left: 10px;
+}
+
+.hobby-bar{
+  display: flex;
+  align-items: center;
+  & img{
+    width:48px;
+    margin-bottom: 18px;
+  }
+}
