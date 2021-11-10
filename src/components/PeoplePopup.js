@@ -15,9 +15,9 @@ const PeoplePopup = ({ person, toggleModal }) => {
       <div className="member-frame-content">
         <div className="member-interests">
           <Slider question="animal" value={person.animal} />
-          <Slider question="animal" value={person.vacation} />
-          <Slider question="animal" value={person.drink} />
-          <Slider question="animal" value={person.media} />
+          <Slider question="vacation" value={person.vacation} />
+          <Slider question="drink" value={person.drink} />
+          <Slider question="media" value={person.media} />
         </div>
         <div className="member-right-panel">
           <img
@@ -29,7 +29,11 @@ const PeoplePopup = ({ person, toggleModal }) => {
           <div className="member-icons">
             {person.links.map((link) => (
               <a href={`${link.url}`} target="_blank" rel="noreferrer">
-                {link.icon}
+                <img
+                  src={`/icons/${link.icon}`}
+                  alt=""
+                  className="social-icon"
+                />
               </a>
             ))}
           </div>

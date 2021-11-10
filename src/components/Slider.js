@@ -1,6 +1,6 @@
 const Slider = ({ question, value }) => {
   const ICONS = {
-    animal: ["cat", "dog"],
+    animal: ["dog", "cat"],
     vacation: ["beach", "mountain"],
     drink: ["beer", "wine"],
     media: ["podcast", "movie"],
