@@ -1,10 +1,32 @@
 export const peopleJson = {
   "people" : [
     {
-      "name": "Freddie",
-      "role": "Assistant magician & co-founder",
-      "image": "freddie.png",
-      "link": "http://google.com"
+      name: "Freddie",
+      role: "Assistant magician & co-founder",
+      image: "freddie.png",
+      description: "Freddie (Nattapon Sukprasong) is a digital product designer, specialising in product discoveries, design strategy, and creating delightful user experience & interface. With educational background in anthropology and professional experience in social research, Freddie's well-equipped with research methods to understand complex human needs.",
+      animal: 2,
+      vacation: 8,
+      drink: 6,
+      media: 10,
+      food: 6,
+      links: [
+        {
+          icon: "linkedin.png",
+          url: "https://www.linkedin.com/in/nattapon-sukprasong/",
+          alt: "Linked In"
+        },
+        {
+          icon: "website.png",
+          url: "https://nattapon.design",
+          alt: "personal website"
+        },
+        {
+          icon: "dribble.png",
+          url: "https://dribbble.com/nattaponsukprasong",
+          alt: "Dribbble"
+        }
+      ]
     },
     {
       name: "Adam",
