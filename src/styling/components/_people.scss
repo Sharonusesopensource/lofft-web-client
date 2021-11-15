@@ -1,0 +1,49 @@
+.people-wrapper {
+  text-align: center;
+}
+
+.people-tagline {
+  font-size: 3rem;
+  margin: 1rem 0;
+}
+
+.people-description {
+  color: grey;
+  margin: 0;
+}
+
+.people-container {
+  margin-top: 2rem;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.person {
+  border: 3px solid $mint;
+  border-radius: 0.5rem;
+  margin: 0 1rem;
+  min-width: 560px;
+  height: 702px;
+  box-sizing: border-box;
+}
+
+.person-image {
+  width: 360px;
+  padding: 2rem;
+}
+
+.person-name {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+}
+
+.person-role {
+  color: grey;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.person-about {
+  margin-bottom: 0;
+}
