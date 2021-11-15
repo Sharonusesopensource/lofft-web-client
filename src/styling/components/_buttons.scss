@@ -3,6 +3,7 @@
   border-radius: 0.5rem;
   cursor: pointer;
   font-weight: bold;
+  width: fit-content;
 }
 
 .button-lavender {
@@ -13,4 +14,9 @@
 .button-mint {
   background-color: $mint;
   color: white;
+}
+
+.button-white {
+  background-color: white;
+  color: $lavender;
 }
