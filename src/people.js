@@ -10,6 +10,7 @@ export const peopleJson = {
       name: "Adam",
       role: "Assistant magician & co-founder",
       image: "adam.png",
+      description: "",
       animal: 6,
       vacation: 6,
       drink: 6,
@@ -20,10 +21,18 @@ export const peopleJson = {
       ]
     },
     {
-      "name": "Leo",
-      "role": "Assistant magician & co-founder",
-      "image": "freddie.png",
-      "link": "http://google.com"
+      name: "Leo",
+      role: "Assistant magician & co-founder",
+      image: "leo.png",
+      description: "",
+      animal: 1,
+      vacation: 8,
+      drink: 7,
+      media: 10,
+      food: 6,
+      links: [
+
+      ]
     },
     {
       name: "James",
