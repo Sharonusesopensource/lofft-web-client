@@ -1,0 +1,45 @@
+.tilerow {
+  display: flex;
+  justify-content: center;
+}
+
+.tagline {
+  border-radius: 0.5rem;
+  height: 644px;
+  margin: 1rem;
+  text-align: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.tile-half {
+  width: 644px;
+  min-width: 644px;
+}
+
+.tile-full {
+  width: calc(1288px + 2rem);
+  min-width: calc(1288px + 2rem);
+}
+
+.tagline {
+  h3 {
+    font-size: 4.5rem;
+  }
+}
+
+.tile-lavender {
+  background-color: $lavender;
+}
+
+.tile-black {
+  background-color: #000;
+}
+
+.tile-white {
+  background-color: #FFF;
+  border: 3px solid $lavender50;
+}
