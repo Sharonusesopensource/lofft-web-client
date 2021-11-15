@@ -1,8 +1,12 @@
 import Banner from "./Banner"
+import Taglines from "./Taglines"
 
 const LandingPage = () => {
   return (
-    <Banner/>
+    <div className="landingpage">
+      <Banner/>
+      <Taglines/>
+    </div>
   )
 }
 
