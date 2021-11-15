@@ -81,14 +81,30 @@ export const peopleJson = {
       media: 10,
       food: 4,
       links: [
-
+        {
+          icon: "linkedin.png",
+          url: "https://www.linkedin.com/in/valentin-hobusch",
+          alt: "Linked In"
+        }
       ]
-    }
-    ,{
-      "name": "Ivo",
-      "role": "Assistant magician & co-founder",
-      "image": "freddie.png",
-      "link": "http://google.com"
+    },
+    {
+      name: "Ivo",
+      role: "Assistant magician & co-founder",
+      image: "ivo.png",
+      description: "Ivo studied Business Informatics at TU Berlin but he's most passionate about silly hobby programming projects whether that's scraping data, automation or creation of bots. He loves supporting others in their journeys to learn coding and helping them find joy in programming which brought him to teaching at Le Wagon.",
+      animal: 9,
+      vacation: 9,
+      drink: 5,
+      media: 4,
+      food: 8,
+      links: [
+        {
+          icon: "linkedin.png",
+          url: "https://www.linkedin.com/in/ivaylo-dyakov-844376148",
+          alt: "Linked In"
+        }
+      ]
     }
   ]
 }
