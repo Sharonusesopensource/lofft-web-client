@@ -35,8 +35,16 @@ export const peopleJson = {
     {
       name: "Valentin",
       role: "Assistant magician & co-founder",
-      image: "freddie.png",
-      link: "http://google.com"
+      image: "valentin.png",
+      description: "Valentin studied computer Science at TU Berlin. He's currently teaching creative people programming at LeWagon.",
+      animal: 2,
+      vacation: 2,
+      drink: 3,
+      media: 10,
+      food: 4,
+      links: [
+
+      ]
     }
     ,{
       "name": "Ivo",
