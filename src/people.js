@@ -7,10 +7,17 @@ export const peopleJson = {
       "link": "http://google.com"
     },
     {
-      "name": "Adam",
-      "role": "Assistant magician & co-founder",
-      "image": "freddie.png",
-      "link": "http://google.com"
+      name: "Adam",
+      role: "Assistant magician & co-founder",
+      image: "adam.png",
+      animal: 6,
+      vacation: 6,
+      drink: 6,
+      media: 6,
+      food: 6,
+      links: [
+
+      ]
     },
     {
       "name": "Leo",
