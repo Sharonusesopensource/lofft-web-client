@@ -1,6 +1,6 @@
 import hands from "./../hands.svg"
 import clouds from "./../clouds.svg"
-import trials from "./../trials.svg"
+import lofftPeople from "./../lofftPeople.svg"
 import Button from "./Button";
 
 const Taglines = () => {
@@ -19,9 +19,8 @@ const Taglines = () => {
       </div>
 
       <div className="tilerow">
-        <div className="tagline tile-full tile-black" style={{display: "flex"}}>
-          <img style={{width: "50%"}} src={trials} alt={"curve trials"}/>
-          <div style={{width: "50%"}}>
+        <div className="tagline tile-full tile-black" style={{display: "flex", backgroundImage: `url(${lofftPeople})`}}>
+          <div style={{marginLeft: "auto", paddingRight: "10rem"}}>
             <h3 style={{color: "white"}}>Find the<br/>lofft of<br/>your life</h3>
             <Button style={{margin: "0 auto"}} color="lavender">How?</Button>
           </div>
