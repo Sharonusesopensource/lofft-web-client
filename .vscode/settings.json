@@ -1,0 +1,5 @@
+{
+  "l13Projects.vsCode.ignore": [".git", ".hg", ".svn", "CVS"],
+  "l13Projects.subfolder.ignore": [".git", ".hg", ".svn", ".vscode", "CVS"],
+  "l13Projects.workspace.ignore": [".hg", ".git", ".svn", ".vscode", "CVS"]
+}
