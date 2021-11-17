@@ -1,6 +1,7 @@
 import Banner from "./Banner"
 import Taglines from "./Taglines"
 import People from "./People"
+import ContactForm from "./ContactForm"
 import Footer from "./Footer"
 
 const LandingPage = () => {
@@ -9,6 +10,7 @@ const LandingPage = () => {
       <Banner/>
       <Taglines/>
       <People/>
+      <ContactForm/>
       <Footer/>
     </div>
   )
