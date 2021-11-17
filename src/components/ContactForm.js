@@ -25,7 +25,7 @@ const ContactForm = () => {
   async function submitForm(e) {
     e.preventDefault();
 
-    const webhookUrl = 'https://hooks.slack.com/services/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';
+    const webhookUrl = process.env.REACT_APP_CONTACTFORM_WEBHOOK;
 
     const data = {
         "text": `Name: ${name} \n${email} \n${message}${checkBox ? "\nPlease add me to mailinglist" : ""}`,
