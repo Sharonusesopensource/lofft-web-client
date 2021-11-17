@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   backdrop-filter: blur(10px);
+  display: flex;
 }
 
 .modal {
@@ -16,5 +17,19 @@
     border-radius: 0.5rem;
     border: 3px solid $lavender50;
     text-align: center;
+  }
+
+  .popup-close {
+    cursor: pointer;
+    float: right;
+    width: 3rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
+  }
+}
+
+.popup {
+  h2 {
+    font-weight: bold;
   }
 }
