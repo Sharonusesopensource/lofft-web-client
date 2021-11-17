@@ -2,11 +2,11 @@ import Banner from "./Banner"
 import Taglines from "./Taglines"
 import People from "./People"
 
-const LandingPage = () => {
+const LandingPage = ({setModal}) => {
   return (
     <div className="landingpage">
       <Banner/>
-      <Taglines/>
+      <Taglines setModal={setModal}/>
       <People/>
     </div>
   )

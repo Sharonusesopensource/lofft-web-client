@@ -1,15 +1,22 @@
-import handshake from "./../handshake.svg";
+import {popups} from '../popups'
 
-const Modal = () => {
-  return (
-    <div className="modal">
-     <div className="popup">
-       <h2>Meet your people</h2>
-       <img src={handshake} alt="handshake"/>
-       <p>Our unique algorithm matches you with the flatmates that suit you best. You choose what's important to you — and what information you wish to share about yourself. Lofft will do the rest, and present you with a shortlist of only the best places or candidates.</p>
-     </div>
-    </div>
-  )
+const Modal = ({data}) => {
+
+  if(data.type === "tag") {
+    return (
+      <div className="modal">
+       <div className="popup">
+         <h2>{popups[data.key].title}</h2>
+         <img src={process.env.PUBLIC_URL + '/illustrations/' + popups[data.key].image} alt="handshake"/>
+         <p>{popups[data.key].text}</p>
+       </div>
+      </div>
+    )
+  } else {
+    return (
+      <h3>MODAL FAIL</h3>
+    )
+  }
 }
 
 export default Modal
