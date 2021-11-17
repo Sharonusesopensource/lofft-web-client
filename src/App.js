@@ -28,7 +28,7 @@ function App() {
       <Header toggle={togglePage} isLanding={showLanding}/>
      {showLanding && <LandingPage setModal={setModal}/>}
      {!showLanding && <InvestorPage />}
-     {showModal && <Modal data={modalData}/>}
+     {showModal && <Modal data={modalData} toggleModal={toggleModal}/>}
     </div>
   );
 }
