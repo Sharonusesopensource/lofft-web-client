@@ -22,7 +22,7 @@ export const peopleJson = {
           alt: "personal website"
         },
         {
-          icon: "dribble.svg",
+          icon: "dribbble.svg",
           url: "https://dribbble.com/nattaponsukprasong",
           alt: "Dribbble"
         }
