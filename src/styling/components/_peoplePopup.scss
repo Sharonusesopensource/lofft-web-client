@@ -1,0 +1,52 @@
+.person-modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4542191876750701) 13%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0.47942927170868344) 88%, rgba(255, 255, 255, 0) 100%);
+}
+
+.member-frame-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-avatar {
+  width: 272px;
+}
+
+.member-right-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 272px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.member-header {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
+.member-interests {
+  margin-top: -70px;
+}
+
+.social-icon {
+  width: 48px;
+  padding: 0 1rem;
+}
+
+#close-model-icon {
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
+  height: 48px;
+}
