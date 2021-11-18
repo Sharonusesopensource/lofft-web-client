@@ -1,5 +1,5 @@
 import {popups} from '../popups'
-
+import PeoplePopup from './PeoplePopup';
 
 const Modal = ({data, toggleModal}) => {
 
@@ -9,27 +9,25 @@ const Modal = ({data, toggleModal}) => {
     }
   }
 
-  if(data.type === "tag") {
     return (
       <div className="modal" onClick={clickModal}>
        <div className="popup">
-        <img
-        src={process.env.PUBLIC_URL + '/icons/close-icon.png'}
-        className="popup-close"
-        alt="X"
-        onClick={toggleModal}
-      />
-         <h2>{popups[data.key].title}</h2>
-         <img src={process.env.PUBLIC_URL + '/illustrations/' + popups[data.key].image} alt="illustration"/>
-         <p>{popups[data.key].text}</p>
+          <img
+          src={process.env.PUBLIC_URL + '/icons/close-icon.png'}
+          className="popup-close"
+          alt="X"
+          onClick={toggleModal}/>
+
+        {data.type === "tag" && (<div>
+            <h2>{popups[data.key].title}</h2>
+            <img src={process.env.PUBLIC_URL + '/illustrations/' + popups[data.key].image} alt="illustration"/>
+            <p>{popups[data.key].text}</p>
+          </div>)
+        }
+        {data.type === "person" && <PeoplePopup person={data.key}/>}
        </div>
       </div>
     )
-  } else {
-    return (
-      <h3>MODAL FAIL</h3>
-    )
-  }
 }
 
 export default Modal

@@ -9,7 +9,7 @@ const LandingPage = ({setModal}) => {
     <div className="landingpage">
       <Banner/>
       <Taglines setModal={setModal}/>
-      <People/>
+      <People setModal={setModal}/>
       <ContactForm/>
       <Footer/>
     </div>

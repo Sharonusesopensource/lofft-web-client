@@ -1,8 +1,4 @@
 import Button from "./Button"
-import PeoplePopup from "./PeoplePopup"
-
-import { useState } from "react"
-
 import { peopleJson } from "../people"
 
 const randomPeople = peopleJson.people
@@ -10,12 +6,7 @@ const randomPeople = peopleJson.people
   .sort((a, b) => a.sort - b.sort)
   .map(({ value }) => value)
 
-const Person = ({ person }) => {
-  const [showModal, setShowModal] = useState(false)
-
-  const toggleModal = () => {
-    setShowModal(!showModal)
-  }
+const Person = ({ person, setModal }) => {
 
   return (
     <div className="person">
@@ -27,22 +18,17 @@ const Person = ({ person }) => {
       <p className="person-name">{person.name}</p>
       <p className="person-role">{person.role}</p>
       <Button
-        onClick={toggleModal}
+        onClick={() => setModal({type: "person", key: person})}
         color="mint"
         style={{ width: "fit-content", margin: "0 auto" }}
       >
         {person.name + " who?"}
       </Button>
-      {showModal ? (
-        <div className="person-modal">
-          <PeoplePopup person={peopleJson.people[0]} toggleModal={toggleModal} />
-        </div>
-      ) : null}
     </div>
   )
 }
 
-const People = () => {
+const People = ({setModal}) => {
   return (
     <div className="people-wrapper">
       <h3 className="section-tagline">We are you.</h3>
@@ -50,7 +36,7 @@ const People = () => {
       <p className="section-description">Which also means we know exactly how to make your life easier.</p>
       <div className="people-container">
         {randomPeople.map((person) => (
-          <Person key={"person" + person.name} person={person} />
+          <Person key={"person" + person.name} person={person} setModal={setModal}/>
         ))}
       </div>
     </div>

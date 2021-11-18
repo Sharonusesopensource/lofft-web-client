@@ -1,26 +1,8 @@
-import { useRef } from "react"
-
 import Slider from "./Slider"
-const PeoplePopup = ({ person, toggleModal }) => {
-  const userModal = useRef(null)
 
-  const closeModalOnOutsideClick = (e) => {
-    if (userModal.current && !userModal.current.contains(e.target)) {
-      toggleModal()
-    }
-  }
-
-  document.addEventListener("mousedown", closeModalOnOutsideClick)
-
+const PeoplePopup = ({person}) => {
   return (
-    <div className="member-frame" ref={userModal}>
-      <img
-        src={`/icons/close-icon.png`}
-        alt=""
-        id="close-model-icon"
-        className="button"
-        onClick={toggleModal}
-      />
+    <div className="member-frame">
       <div className="member-header">
         <h1>{person.name}</h1>
         <p>{person.description}</p>
