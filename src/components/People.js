@@ -3,7 +3,7 @@ import PeoplePopup from "./PeoplePopup"
 
 import { useState } from "react"
 
-import { peopleJson, samplePerson } from "../people"
+import { peopleJson } from "../people"
 
 const randomPeople = peopleJson.people
   .map((value) => ({ value, sort: Math.random() }))
@@ -35,7 +35,7 @@ const Person = ({ person }) => {
       </Button>
       {showModal ? (
         <div className="person-modal">
-          <PeoplePopup person={samplePerson} toggleModal={toggleModal} />
+          <PeoplePopup person={peopleJson.people[0]} toggleModal={toggleModal} />
         </div>
       ) : null}
     </div>
@@ -45,13 +45,9 @@ const Person = ({ person }) => {
 const People = () => {
   return (
     <div className="people-wrapper">
-      <h3 className="people-tagline">We are you.</h3>
-      <p className="people-description">
-        We've all been the new kid in town before.
-      </p>
-      <p className="people-description">
-        Which also means we know exactly how to make your life easier.
-      </p>
+      <h3 className="section-tagline">We are you.</h3>
+      <p className="section-description">We've all been the new kid in town before.</p>
+      <p className="section-description">Which also means we know exactly how to make your life easier.</p>
       <div className="people-container">
         {randomPeople.map((person) => (
           <Person key={"person" + person.name} person={person} />

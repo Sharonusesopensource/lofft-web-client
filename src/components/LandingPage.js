@@ -1,15 +1,17 @@
 import Banner from "./Banner"
 import Taglines from "./Taglines"
 import People from "./People"
+import ContactForm from "./ContactForm"
+import Footer from "./Footer"
 
-const LandingPage = () => {
+const LandingPage = ({setModal}) => {
   return (
     <div className="landingpage">
-      <Banner />
-      <Taglines />
-      <div className="about-us">
-        <People />
-      </div>
+      <Banner/>
+      <Taglines setModal={setModal}/>
+      <People/>
+      <ContactForm/>
+      <Footer/>
     </div>
   )
 }

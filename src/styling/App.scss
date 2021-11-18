@@ -1,31 +1,17 @@
-@import "components/fonts";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
 @import "components/colors";
 @import "components/header";
 @import "components/people";
 @import "components/banner";
 @import "components/buttons";
+@import "components/general";
+@import "components/footer";
 @import "components/taglineTile";
+@import "components/modal";
 @import "components/peoplePopup";
 @import "components/slider";
 
-* {
-  cursor: default;
-}
-
-.container {
-  display: flex;
-  // color: white;
-  padding: 0 5%;
-  margin-top: 200px;
-  h1,
-  #date {
-    margin-top: 45px;
-    font-size: 2.4rem;
-    font-family: "Bellota Text", cursive;
-  }
-}
-
 .App {
-  padding: 1rem 3rem 0 3rem;
-  font-family: Archia, Arial, serif;
+  font-family: 'Montserrat', sans-serif;
 }
