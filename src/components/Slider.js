@@ -18,11 +18,11 @@ const Slider = ({ question, value }) => {
 
   return (
     <div className="hobby-bar">
-      <img src={`/icons/${ICONS[question][0]}.png`} alt="" />
+      <img src={process.env.PUBLIC_URL + `/icons/${ICONS[question][0]}.svg`} alt={ICONS[question][0]} />
       <div className="slider">
         <ul>{generateListItems()}</ul>
       </div>
-      <img src={`/icons/${ICONS[question][1]}.png`} alt="" />
+      <img src={process.env.PUBLIC_URL + `/icons/${ICONS[question][1]}.svg`} alt={ICONS[question][1]} />
     </div>
   )
 }
