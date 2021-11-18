@@ -21,9 +21,9 @@ const Person = ({person}) => {
 const People = () => {
   return (
     <div className="people-wrapper">
-      <h3 className="people-tagline">We are you.</h3>
-      <p className="people-description">We've all been the new kid in town before.</p>
-      <p className="people-description">Which also means we know exactly how to make your life easier.</p>
+      <h3 className="section-tagline">We are you.</h3>
+      <p className="section-description">We've all been the new kid in town before.</p>
+      <p className="section-description">Which also means we know exactly how to make your life easier.</p>
       <div className="people-container">
         {randomPeople.map((person) => <Person key={"person" + person.name} person={person}/>)}
       </div>
