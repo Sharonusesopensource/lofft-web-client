@@ -4,11 +4,11 @@ import People from "./People"
 import ContactForm from "./ContactForm"
 import Footer from "./Footer"
 
-const LandingPage = () => {
+const LandingPage = ({setModal}) => {
   return (
     <div className="landingpage">
       <Banner/>
-      <Taglines/>
+      <Taglines setModal={setModal}/>
       <People/>
       <ContactForm/>
       <Footer/>
