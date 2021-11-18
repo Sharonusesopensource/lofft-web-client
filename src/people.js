@@ -12,17 +12,17 @@ export const peopleJson = {
       food: 6,
       links: [
         {
-          icon: "linkedin.png",
+          icon: "linkedin.svg",
           url: "https://www.linkedin.com/in/nattapon-sukprasong/",
           alt: "Linked In"
         },
         {
-          icon: "website.png",
+          icon: "website.svg",
           url: "https://nattapon.design",
           alt: "personal website"
         },
         {
-          icon: "dribble.png",
+          icon: "dribble.svg",
           url: "https://dribbble.com/nattaponsukprasong",
           alt: "Dribbble"
         }
@@ -82,7 +82,7 @@ export const peopleJson = {
       food: 4,
       links: [
         {
-          icon: "linkedin.png",
+          icon: "linkedin.svg",
           url: "https://www.linkedin.com/in/valentin-hobusch",
           alt: "Linked In"
         }
@@ -100,7 +100,7 @@ export const peopleJson = {
       food: 8,
       links: [
         {
-          icon: "linkedin.png",
+          icon: "linkedin.svg",
           url: "https://www.linkedin.com/in/ivaylo-dyakov-844376148",
           alt: "Linked In"
         }

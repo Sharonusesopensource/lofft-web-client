@@ -1,4 +1,4 @@
-.person-modal{
+.person-modal {
   width: 100vw;
   height: 100vh;
   position: fixed;
@@ -9,24 +9,13 @@
   background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4542191876750701) 13%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0.47942927170868344) 88%, rgba(255, 255, 255, 0) 100%);
 }
 
-.member-frame-content{
+.member-frame-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.member-frame{
-  position: relative;
-  width: 60%;
-  margin: auto;
-  padding: 20px 50px;
-  border: 2px solid rgba(0, 0, 0, 0.1);
-  box-sizing: border-box;
-  border-radius: 16px;
-  background-color: white;
-}
-
-.member-frame .modal-avatar {
+.modal-avatar {
   width: 272px;
 }
 
@@ -50,7 +39,7 @@
   margin-top: -70px;
 }
 
-.social-icon{
+.social-icon {
   width: 48px;
   padding: 0 1rem;
 }

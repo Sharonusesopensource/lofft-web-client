@@ -16,8 +16,8 @@ const PeoplePopup = ({person}) => {
         </div>
         <div className="member-right-panel">
           <img
-            src={`/people/${person.image}`}
-            alt=""
+            src={process.env.PUBLIC_URL + `/people/${person.image}`}
+            alt={person.name}
             className="modal-avatar"
           />
           <p>{person.role}</p>
@@ -25,7 +25,7 @@ const PeoplePopup = ({person}) => {
             {person.links.map((link) => (
               <a href={`${link.url}`} target="_blank" rel="noreferrer">
                 <img
-                  src={`/icons/${link.icon}`}
+                  src={process.env.PUBLIC_URL + `/icons/${link.icon}`}
                   alt=""
                   className="social-icon button"
                 />
