@@ -1,6 +1,4 @@
 header {
-  display: flex;
-  justify-content: space-between;
   color: black;
 }
 
@@ -29,4 +27,15 @@ header {
 
 .nav-active {
   border-bottom: 3px solid $lavender;
+}
+
+#countdown {
+  width: 100vw;
+  text-align: center;
+  background-color: $mint;
+  margin: 0 -1rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
