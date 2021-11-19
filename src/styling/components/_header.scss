@@ -19,7 +19,6 @@ header {
   border-bottom: 3px solid $lavender50;
 }
 
-
 .nav > * {
   margin: 0 1rem;
   border-bottom: 3px solid transparent;
@@ -30,7 +29,7 @@ header {
 }
 
 #countdown {
-  width: 100vw;
+  width: 375px;
   text-align: center;
   background-color: $mint;
   height: 3rem;
