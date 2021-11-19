@@ -19,8 +19,10 @@ const Taglines = ({setModal}) => {
 
       <div className="tilerow">
         <div className="tagline tile-full tile-black" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/illustrations/lofftPeople.svg'})`}}>
-          <h3 style={{color: "white"}}>Find the<br/>Lofft of<br/>your life</h3>
-          <Button style={{margin: "0 auto", ...tagBottom}} color="lavender" onClick={()=> setModal({type: "tag", "key": "findTheLofftOfYourLife"})}>Tell me how!</Button>
+          <div className="tag-right">
+            <h3 style={{color: "white"}}>Find the<br/>Lofft of<br/>your life</h3>
+            <Button style={{margin: "0 auto", ...tagBottom}} color="lavender" onClick={()=> setModal({type: "tag", "key": "findTheLofftOfYourLife"})}>Tell me how!</Button>
+          </div>
         </div>
       </div>
 

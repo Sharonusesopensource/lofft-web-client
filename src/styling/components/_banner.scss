@@ -44,7 +44,9 @@
   .banner {
     form {
       display: flex;
+      align-items: center;
     }
+
     .emailform-message {
       font-size: 1.5rem;
     }

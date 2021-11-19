@@ -6,7 +6,7 @@
 
 .tagline {
   border-radius: 0.5rem;
-  height: 344px;
+  height: calc(375px - 1rem);
   margin: 1rem 0rem;
   text-align: center;
   background-size: contain;
@@ -17,11 +17,11 @@
 }
 
 .tile-half {
-  width: 344px;
+  width: calc(375px - 1rem);
 }
 
 .tile-full {
-  width: 344px;
+  width: calc(375px - 1rem);
 }
 
 .tagline {
@@ -46,7 +46,18 @@
 @media screen and (min-width: 768px) {
 
   .tile-full {
-    width: calc(344px + 344px);
+    width: calc(375px + 375px + 1rem);
+
+    .tag-right {
+      position: relative;
+      height: 100%;
+      float: right;
+      margin-right: 4rem;
+    }
   }
+
+  .tagline + .tagline {
+    margin-left: 1rem;
+}
 
 }
