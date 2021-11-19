@@ -20,7 +20,7 @@ header {
 }
 
 
-.nav > *{
+.nav > * {
   margin: 0 1rem;
   border-bottom: 3px solid transparent;
 }
@@ -38,4 +38,17 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+  }
+
+  #countdown {
+    background-color: transparent;
+    width: 100%;
+    display: block;
+    text-align: right;
+  }
 }

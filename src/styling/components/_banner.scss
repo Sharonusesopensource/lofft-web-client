@@ -5,7 +5,7 @@
     font-weight: 500;
   }
 
-  input{
+  input {
     margin-right: 2rem;
     font-size: 1.5rem;
     width: 100%;
@@ -18,7 +18,7 @@
     box-sizing: border-box;
   }
 
-  input:focus{
+  input:focus {
     outline: none;
   }
 
@@ -38,4 +38,15 @@
 
 .intext-logo {
   padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    form {
+      display: flex;
+    }
+    .emailform-message {
+      font-size: 1.5rem;
+    }
+  }
 }

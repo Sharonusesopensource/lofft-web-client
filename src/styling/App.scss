@@ -15,7 +15,6 @@
 .App {
   font-family: 'Montserrat', sans-serif;
   width: 360px;
-  margin: 0 auto;
   padding-top: 0.5rem;
 }
 
@@ -26,4 +25,10 @@ body {
 
 #root {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .App {
+    width: 768px;
+  }
 }

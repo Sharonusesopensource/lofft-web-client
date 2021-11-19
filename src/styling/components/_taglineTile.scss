@@ -6,7 +6,7 @@
 
 .tagline {
   border-radius: 0.5rem;
-  height: 360px;
+  height: 344px;
   margin: 1rem 0rem;
   text-align: center;
   background-size: contain;
@@ -17,11 +17,11 @@
 }
 
 .tile-half {
-  width: 360px;
+  width: 344px;
 }
 
 .tile-full {
-  width: 360px;
+  width: 344px;
 }
 
 .tagline {
@@ -41,4 +41,12 @@
 .tile-white {
   background-color: #FFF;
   border: 3px solid $lavender50;
+}
+
+@media screen and (min-width: 768px) {
+
+  .tile-full {
+    width: calc(344px + 344px);
+  }
+
 }
