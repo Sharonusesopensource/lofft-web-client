@@ -29,7 +29,7 @@ const EmailForm = ({ status, message, onValidated }) => {
       <form onSubmit={handleSubmit}>
         <input type="email" value={email} onChange={handleChange} placeholder="Email"/>
         <button type="submit" style={{display:"none"}}/>
-        <Button color="lavender" style={{width: "6rem"}} onClick={handleSubmit}>Sign up</Button>
+        <Button color="lavender" onClick={handleSubmit}>Sign up</Button>
       </form>
     </div>
   )

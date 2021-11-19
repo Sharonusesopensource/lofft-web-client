@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-const tagBottom = {position: "absolute", bottom: 30, paddingBottom: "1rem" , left: 0, right: 0}
+const tagBottom = {position: "absolute", bottom: 30, left: 0, right: 0}
 
 const Taglines = ({setModal}) => {
   return (
