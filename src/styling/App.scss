@@ -17,6 +17,8 @@
   width: 375px;
   padding: 0.5rem 1rem;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 body {
@@ -31,5 +33,12 @@ body {
 @media screen and (min-width: 768px) {
   .App {
     width: 768px;
+  }
+}
+
+
+@media screen and (min-width: 992px) {
+  .App {
+    width: 992px;
   }
 }

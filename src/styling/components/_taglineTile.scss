@@ -58,6 +58,26 @@
 
   .tagline + .tagline {
     margin-left: 1rem;
+  }
+
 }
+
+@media screen and (min-width: 992px) {
+
+  .tile-half {
+    width: 467px;
+  }
+
+  .tile-full {
+    width: calc(467px + 467px + 1rem);
+  }
+
+  .tagline {
+    height: 467px;
+
+    h3 {
+      font-size: 3.5rem;
+    }
+  }
 
 }
