@@ -12,18 +12,18 @@
   border: 3px solid $mint;
   border-radius: 0.5rem;
   margin: 0 1rem;
-  min-width: 560px;
-  height: 702px;
+  width: 340px;
   box-sizing: border-box;
+  padding: 1rem 0rem;
 }
 
 .person-image {
-  width: 360px;
-  padding: 2rem;
+  width: 220px;
+  padding: 0 2rem;
 }
 
 .person-name {
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: bold;
   margin: 0 0 1rem 0;
 }
