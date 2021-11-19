@@ -1,15 +1,18 @@
 .banner {
   h1 {
-    font-size: 3rem;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    font-weight: 500;
   }
 
   input{
     margin-right: 2rem;
     font-size: 1.5rem;
-    width: 20rem;
+    width: 100%;
     border: 3px solid $lavender50;
     border-radius: 0.5rem;
-    padding: 0 1rem;
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -20,7 +23,7 @@
   }
 
   .emailform-message {
-    font-size: 1.4rem;
+    font-size: 1rem;
   }
 }
 

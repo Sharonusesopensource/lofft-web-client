@@ -27,9 +27,9 @@ const EmailForm = ({ status, message, onValidated }) => {
         {status === null && <p className="emailform-message">Be the first to get updates from us</p>}
 
       <form onSubmit={handleSubmit}>
-        <input type="email" value={email} onChange={handleChange} placeholder="email@domain.com"/>
+        <input type="email" value={email} onChange={handleChange} placeholder="Email"/>
         <button type="submit" style={{display:"none"}}/>
-        <Button color="lavender" style={{fontSize: "1.5rem"}} onClick={handleSubmit}>Sign up</Button>
+        <Button color="lavender" onClick={handleSubmit}>Sign up</Button>
       </form>
     </div>
   )
