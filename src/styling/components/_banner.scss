@@ -1,17 +1,20 @@
 .banner {
+  margin-bottom: 1rem;
+
   h1 {
-    font-size: 2rem;
-    line-height: 3.5rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     font-weight: 500;
+    margin-top: 3rem;
   }
 
   input {
     margin-right: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     width: 100%;
-    border: 3px solid $lavender50;
+    border: 2px solid $lavender50;
     border-radius: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -23,12 +26,21 @@
 
   .emailform-message {
     font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .button {
+    margin-top: 1rem;
   }
 }
 
 .hero {
   display: flex;
   align-items: center;
+}
+
+.intext-logo {
+  height: 2rem;
 }
 
 .people {

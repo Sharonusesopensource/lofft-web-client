@@ -31,7 +31,7 @@ const Person = ({ person, setModal }) => {
 const People = ({setModal}) => {
   return (
     <div className="people-wrapper">
-      <h3 className="section-tagline">We are you.</h3>
+      <h3 className="section-tagline">We are you</h3>
       <p className="section-description">We've all been the new kid in town before.</p>
       <p className="section-description">Which also means we know exactly how to make your life easier.</p>
       <div className="people-container">

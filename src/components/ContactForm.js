@@ -55,7 +55,7 @@ const ContactForm = () => {
 
   return (
     <div className="contactform-wrapper text-center">
-      <h3 className="section-tagline">We listen to you.</h3>
+      <h3 className="section-tagline">We listen to you</h3>
       <p className="section-description">Don't be a stranger drop us a line.</p>
 
       <form className="contactform" onSubmit={submitForm}>

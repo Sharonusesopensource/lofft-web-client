@@ -9,7 +9,7 @@ const Taglines = ({setModal}) => {
       <div className="tilerow">
         <div className="tagline tile-half tile-lavender" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/illustrations/hands.svg'})`}}>
           <h3 style={{color: "white"}}>Meet your<br/>people</h3>
-          <Button style={{margin: "0 auto", ...tagBottom}} color="white" onClick={()=> setModal({type: "tag", "key": "meetYourPeople"})}>Tell me how!</Button>
+          <Button style={{margin: "0 auto", ...tagBottom}} color="white" onClick={()=> setModal({type: "tag", "key": "meetYourPeople"})}>Tell me how</Button>
         </div>
         <div className="tagline tile-half tile-white">
           <h3 style={{color: "black"}}>No more<br/>🤯<br/>because of<br/>💶</h3>
@@ -18,7 +18,7 @@ const Taglines = ({setModal}) => {
       </div>
 
       <div className="tilerow">
-        <div className="tagline tile-full tile-black" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/illustrations/lofftPeople.svg'})`}}>
+        <div className="tagline tile-full tile-black" id="love-lofft" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/illustrations/lofftPeople.svg'})`}}>
           <div className="tag-right">
             <h3 style={{color: "white"}}>Find the<br/>Lofft of<br/>your life</h3>
             <Button style={{margin: "0 auto", ...tagBottom}} color="lavender" onClick={()=> setModal({type: "tag", "key": "findTheLofftOfYourLife"})}>Tell me how!</Button>
@@ -36,8 +36,8 @@ const Taglines = ({setModal}) => {
           </div>
         </div>
         <div className="tagline tile-half tile-lavender" style={{backgroundImage: `url(${process.env.PUBLIC_URL + '/illustrations/clouds.svg'})`}}>
-          <h3 style={{color: "white"}}>Discover<br/>great<br/>places to<br/>live</h3>
-          <Button style={{margin: "0 auto", height: "1rem", ...tagBottom}} color="white" onClick={()=> setModal({type: "tag", "key": "discoverGreatPlacesToLive"})}>Tell me how!</Button>
+          <h3 style={{color: "white"}}>Discover great<br/>places to live</h3>
+          <Button style={{margin: "0 auto", height: "1rem", ...tagBottom}} color="white" onClick={()=> setModal({type: "tag", "key": "discoverGreatPlacesToLive"})}>Tell me how</Button>
         </div>
       </div>
     </div>
