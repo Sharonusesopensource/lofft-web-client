@@ -59,13 +59,13 @@ const ContactForm = () => {
       <p className="section-description">Don't be a stranger drop us a line.</p>
 
       <form className="contactform" onSubmit={submitForm}>
-        <div>
+        <div className="contact-row">
           <input className="input-minimal" type="text" value={name} onChange={handleChangeName} placeholder="Your name" style={{marginRight: "2rem"}}/>
           <input className="input-minimal" type="email" value={email} onChange={handleChangeEmail} placeholder="Email"/>
         </div>
         <input className="input-minimal" type="text" value={message} onChange={handleChangeMessage} placeholder="Text description"/>
         <button type="submit" style={{display: "none"}}/>
-        <div>
+        <div className="contact-row">
           <div style={{display: "flex", alignItems: "center"}}>
             <input type="checkbox" onChange={handleCheckbox} checked={checkBox}/>
             <p style={{margin: 0}}>Sign me up for newsletter</p>

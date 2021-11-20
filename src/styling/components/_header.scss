@@ -53,8 +53,8 @@ header {
   #countdown {
     background-color: transparent;
     width: 100%;
-    display: block;
-    text-align: right;
     margin: 0;
+    display: flex;
+    justify-content: right;
   }
 }
