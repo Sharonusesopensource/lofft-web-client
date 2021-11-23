@@ -1,8 +1,8 @@
-import React from 'react';
+import React from "react";
 
-import Slider from "./Slider"
+import Slider from "./Slider";
 
-const PeoplePopup = ({person}) => {
+const PeoplePopup = ({ person }) => {
   return (
     <div className="member-frame">
       <div className="member-header">
@@ -26,7 +26,7 @@ const PeoplePopup = ({person}) => {
           <p>{person.role}</p>
           <div className="member-icons">
             {person.links.map((link) => (
-              <a href={`${link.url}`} target="_blank" rel="noreferrer">
+              <a href={`${link.url}`} target="_blank" rel="noopener noreferrer">
                 <img
                   src={process.env.PUBLIC_URL + `/icons/${link.icon}`}
                   alt=""
@@ -38,7 +38,7 @@ const PeoplePopup = ({person}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default PeoplePopup
+export default PeoplePopup;

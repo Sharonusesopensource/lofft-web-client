@@ -35,7 +35,12 @@ let CountDownToLaunch = () => {
   return (
     <h3 id="countdown">
       {`${dateTarget[0]}d : ${dateTarget[1]}h : ${dateTarget[2]}m`}
-      <span>until 🚀</span>
+      <span>
+        until{" "}
+        <span role="img" aria-label="rocket">
+          🚀
+        </span>
+      </span>
     </h3>
   );
 };
