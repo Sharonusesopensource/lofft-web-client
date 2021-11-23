@@ -1,3 +1,4 @@
+@import "../../styling/components/_colors.scss";
 .tilerow {
   display: flex;
   justify-content: center;
@@ -39,12 +40,11 @@
 }
 
 .tile-white {
-  background-color: #FFF;
+  background-color: #fff;
   border: 3px solid $lavender50;
 }
 
 @media screen and (min-width: 768px) {
-
   .tile-full {
     width: calc(375px + 375px + 1rem);
 
@@ -59,11 +59,9 @@
   .tagline + .tagline {
     margin-left: 1rem;
   }
-
 }
 
 @media screen and (min-width: 992px) {
-
   .tile-half {
     width: 467px;
   }
@@ -79,16 +77,14 @@
       font-size: 3.5rem;
     }
   }
-
 }
 @media screen and (max-width: 765px) {
-
   #love-lofft {
     background-size: 30%;
     background-position: center;
     background-position-y: 70%;
     //
     // set background to lofftperson.svg
-    background-image: url('/illustrations/lofftperson.svg') !important;
+    background-image: url("./lofftPerson.svg") !important;
   }
 }
