@@ -37,6 +37,11 @@ body {
   overflow-x: hidden;
 }
 
+.input-minimal {
+  border-radius: 0%;
+  box-shadow: none;
+}
+
 @media screen and (min-width: 768px) {
   .App {
     width: 768px;
