@@ -42,20 +42,20 @@ export const peopleJson = {
 
       ]
     },
-    {
-      name: "Leo",
-      role: "Developer",
-      image: "leo.png",
-      description: "",
-      animal: 1,
-      vacation: 8,
-      drink: 7,
-      media: 10,
-      food: 6,
-      links: [
+    // {
+    //   name: "Leo",
+    //   role: "Developer",
+    //   image: "leo.png",
+    //   description: "",
+    //   animal: 1,
+    //   vacation: 8,
+    //   drink: 7,
+    //   media: 10,
+    //   food: 6,
+    //   links: [
 
-      ]
-    },
+    //   ]
+    // },
     {
       name: "James",
       role: "Co-founder",

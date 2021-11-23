@@ -11,7 +11,7 @@ const Footer = () => {
           <a  href="https://www.linkedin.com/company/lofftapp" target="_blank" rel="noreferrer">LinkedIn</a>
         </div>
       </div>
-      <p style={{fontSize: "1rem", textAlign: "center"}}>Made with 🖤 in Berlin</p>
+      <p style={{fontSize: "1rem", textAlign: "center", marginTop: "3rem"}}>Made with 🖤 in Berlin</p>
     </footer>
   )
 }
