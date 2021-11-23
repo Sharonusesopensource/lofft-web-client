@@ -1,6 +1,7 @@
 import Button from "../Button";
 import React from "react";
 import "./TaglineTile.scss";
+import { scrollDissable } from "../../scrolltoggle";
 const tagBottom = { position: "absolute", bottom: 30, left: 0, right: 0 };
 
 const Taglines = ({ setModal }) => {
@@ -23,7 +24,10 @@ const Taglines = ({ setModal }) => {
           <Button
             style={{ margin: "0 auto", ...tagBottom }}
             color="white"
-            onClick={() => setModal({ type: "tag", key: "meetYourPeople" })}
+            onClick={() => {
+              scrollDissable();
+              setModal({ type: "tag", key: "meetYourPeople" });
+            }}
           >
             Tell me how
           </Button>
@@ -45,7 +49,10 @@ const Taglines = ({ setModal }) => {
           <Button
             style={{ margin: "0 auto", ...tagBottom }}
             color="lavender"
-            onClick={() => setModal({ type: "tag", key: "noMoreHeadaches" })}
+            onClick={() => {
+              scrollDissable();
+              setModal({ type: "tag", key: "noMoreHeadaches" });
+            }}
           >
             What do you mean?
           </Button>
@@ -73,9 +80,10 @@ const Taglines = ({ setModal }) => {
             <Button
               style={{ margin: "0 auto", ...tagBottom }}
               color="lavender"
-              onClick={() =>
-                setModal({ type: "tag", key: "findTheLofftOfYourLife" })
-              }
+              onClick={() => {
+                scrollDissable();
+                setModal({ type: "tag", key: "findTheLofftOfYourLife" });
+              }}
             >
               Tell me how!
             </Button>
@@ -115,7 +123,10 @@ const Taglines = ({ setModal }) => {
             <Button
               style={{ margin: "0 auto", height: "1rem", ...tagBottom }}
               color="lavender"
-              onClick={() => setModal({ type: "tag", key: "neverMissAParty" })}
+              onClick={() => {
+                scrollDissable();
+                setModal({ type: "tag", key: "neverMissAParty" });
+              }}
             >
               How?
             </Button>
@@ -142,9 +153,10 @@ const Taglines = ({ setModal }) => {
           <Button
             style={{ margin: "0 auto", height: "1rem", ...tagBottom }}
             color="white"
-            onClick={() =>
-              setModal({ type: "tag", key: "discoverGreatPlacesToLive" })
-            }
+            onClick={() => {
+              scrollDissable();
+              setModal({ type: "tag", key: "discoverGreatPlacesToLive" });
+            }}
           >
             Tell me how
           </Button>

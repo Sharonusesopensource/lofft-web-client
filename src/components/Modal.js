@@ -1,10 +1,12 @@
 import React from "react";
 import { popups } from "../popups";
 import PeoplePopup from "./PeoplePopup";
+import { scrollEnable } from "../scrolltoggle";
 
 const Modal = ({ data, toggleModal }) => {
   const clickModal = ({ target }) => {
     if (target.className === "modal") {
+      scrollEnable();
       toggleModal();
     }
   };
@@ -16,7 +18,10 @@ const Modal = ({ data, toggleModal }) => {
           src={process.env.PUBLIC_URL + "/icons/close-icon.png"}
           className="popup-close"
           alt="X"
-          onClick={toggleModal}
+          onClick={() => {
+            scrollEnable();
+            toggleModal();
+          }}
         />
 
         {data.type === "tag" && (
