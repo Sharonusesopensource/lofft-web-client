@@ -1,5 +1,5 @@
 import Button from "./Button";
-
+import React from 'react';
 const tagBottom = {position: "absolute", bottom: 30, left: 0, right: 0}
 
 const Taglines = ({setModal}) => {

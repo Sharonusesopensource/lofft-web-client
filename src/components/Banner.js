@@ -1,3 +1,4 @@
+import React from 'react';
 import MailchimpForm from "./EmailForm"
 
 const Banner = () => {

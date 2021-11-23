@@ -1,3 +1,4 @@
+import React from 'react';
 const Slider = ({ question, value }) => {
   const ICONS = {
     animal: ["dog", "cat"],

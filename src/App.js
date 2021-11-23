@@ -1,3 +1,4 @@
+import React from 'react';
 import "./styling/App.scss";
 import Header from "./components/Header";
 import LandingPage from "./components/LandingPage";

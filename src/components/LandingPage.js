@@ -1,3 +1,4 @@
+import React from 'react';
 import Banner from "./Banner"
 import Taglines from "./Taglines"
 import People from "./People"

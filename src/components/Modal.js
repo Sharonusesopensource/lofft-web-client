@@ -1,3 +1,4 @@
+import React from 'react';
 import {popups} from '../popups'
 import PeoplePopup from './PeoplePopup';
 
