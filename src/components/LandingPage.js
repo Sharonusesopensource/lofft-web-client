@@ -1,5 +1,5 @@
 import React from "react";
-import Banner from "./Banner";
+import Banner from "./Banner/Banner";
 import Taglines from "./Taglines/Taglines";
 import People from "./People";
 import ContactForm from "./ContactForm";
