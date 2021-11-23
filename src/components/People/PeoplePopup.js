@@ -1,7 +1,7 @@
 import React from "react";
 
-import Slider from "./Slider";
-
+import Slider from "../Slider/Slider";
+import "./peoplePopup.scss";
 const PeoplePopup = ({ person }) => {
   return (
     <div className="member-frame">

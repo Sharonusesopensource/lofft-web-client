@@ -1,4 +1,4 @@
-import Button from "../Button";
+import Button from "../Button/Button";
 import React from "react";
 import "./TaglineTile.scss";
 import { scrollDissable } from "../../scrolltoggle";

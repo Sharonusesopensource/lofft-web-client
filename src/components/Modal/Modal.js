@@ -1,7 +1,9 @@
 import React from "react";
-import { popups } from "../popups";
-import PeoplePopup from "./PeoplePopup";
-import { scrollEnable } from "../scrolltoggle";
+import { popups } from "../../popups";
+import PeoplePopup from "../People/PeoplePopup";
+import { scrollEnable } from "../../scrolltoggle";
+
+import "./modal.scss";
 
 const Modal = ({ data, toggleModal }) => {
   const clickModal = ({ target }) => {

@@ -1,7 +1,8 @@
 import React from "react";
-import Button from "./Button";
-import { peopleJson } from "../people";
-import { scrollDissable } from "../scrolltoggle";
+import Button from "../Button/Button";
+import peopleJson from "./people.json";
+import "./people.scss";
+import { scrollDissable } from "../../scrolltoggle";
 const randomPeople = peopleJson.people
   .map((value) => ({ value, sort: Math.random() }))
   .sort((a, b) => a.sort - b.sort)

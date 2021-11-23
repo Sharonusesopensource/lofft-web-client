@@ -1,3 +1,4 @@
+@import "../../styling/components/_colors.scss";
 .slider {
   border-top: 2px solid black;
   display: table;
@@ -17,7 +18,7 @@
 
 .slider .active:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 25px;
   height: 25px;
   background: $lavender;
@@ -26,11 +27,11 @@
   left: 8px;
 }
 
-.hobby-bar{
+.hobby-bar {
   display: flex;
   align-items: center;
-  & img{
-    width:48px;
+  & img {
+    width: 48px;
     margin-bottom: 18px;
   }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import MailchimpForm from "../EmailForm";
+import MailchimpForm from "../Forms/EmailForm";
 import "./banner.scss";
 import textLogo from "../../assets/illustrations/textlogo.svg";
 

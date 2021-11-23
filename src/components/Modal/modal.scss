@@ -1,3 +1,4 @@
+@import "../../styling/components/_colors.scss";
 .modal {
   position: fixed;
   top: 0;
@@ -55,6 +56,5 @@
     .tag-text {
       font-size: 1.25rem;
     }
-
   }
 }
