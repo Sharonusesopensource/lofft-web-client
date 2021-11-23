@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState } from "react"
 import Button from "./Button"
 import axios from 'axios';
@@ -55,22 +56,22 @@ const ContactForm = () => {
 
   return (
     <div className="contactform-wrapper text-center">
-      <h3 className="section-tagline">We listen to you.</h3>
+      <h3 className="section-tagline">We listen to you</h3>
       <p className="section-description">Don't be a stranger drop us a line.</p>
 
       <form className="contactform" onSubmit={submitForm}>
-        <div style={{display: "flex"}}>
-          <input className="input-minimal" type="text" value={name} onChange={handleChangeName} placeholder="name" style={{marginRight: "2rem"}}/>
-          <input className="input-minimal" type="email" value={email} onChange={handleChangeEmail} placeholder="email"/>
+        <div className="contact-row">
+          <input className="input-minimal" type="text" value={name} onChange={handleChangeName} placeholder="Your name" style={{marginRight: "2rem"}}/>
+          <input className="input-minimal" type="email" value={email} onChange={handleChangeEmail} placeholder="Email"/>
         </div>
-        <input className="input-minimal" type="text" value={message} onChange={handleChangeMessage} placeholder="message"/>
+        <input className="input-minimal" type="text" value={message} onChange={handleChangeMessage} placeholder="Text description"/>
         <button type="submit" style={{display: "none"}}/>
-        <div style={{display: "flex", justifyContent: "space-between"}}>
+        <div className="contact-row">
           <div style={{display: "flex", alignItems: "center"}}>
             <input type="checkbox" onChange={handleCheckbox} checked={checkBox}/>
             <p style={{margin: 0}}>Sign me up for newsletter</p>
           </div>
-          <Button color="lavender" style={{width: "fit-content"}} onClick={submitForm}>Send</Button>
+          <Button color="lavender" style={{width: "fit-content", marginLeft: "auto"}} onClick={submitForm}>Send</Button>
         </div>
       </form>
     </div>

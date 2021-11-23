@@ -1,3 +1,4 @@
+import React from 'react';
 import {popups} from '../popups'
 import PeoplePopup from './PeoplePopup';
 
@@ -19,9 +20,11 @@ const Modal = ({data, toggleModal}) => {
           onClick={toggleModal}/>
 
         {data.type === "tag" && (<div>
-            <h2>{popups[data.key].title}</h2>
-            <img src={process.env.PUBLIC_URL + '/illustrations/' + popups[data.key].image} alt="illustration"/>
-            <p>{popups[data.key].text}</p>
+            <h2 className="tag-title">{popups[data.key].title}</h2>
+            <div className="tag-images">
+              {popups[data.key].images.map((image) => <img className="tag-image" key={image} src={process.env.PUBLIC_URL + '/illustrations/' + image} alt="illustration"/>)}
+            </div>
+            <p className="tag-text">{popups[data.key].text}</p>
           </div>)
         }
         {data.type === "person" && <PeoplePopup person={data.key}/>}

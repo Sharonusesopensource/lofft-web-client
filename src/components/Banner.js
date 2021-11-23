@@ -1,3 +1,4 @@
+import React from 'react';
 import MailchimpForm from "./EmailForm"
 
 const Banner = () => {
@@ -5,7 +6,7 @@ const Banner = () => {
     <div className="banner">
       <div className="hero">
         <div>
-          <h1>We're<img className="intext-logo" alt="lofft" src={process.env.PUBLIC_URL + '/illustrations/textLogo.svg'}></img>, the brand new way to manage shared flats and accomodation <br/>- together.</h1>
+          <h1><img className="intext-logo" alt="lofft" src={process.env.PUBLIC_URL + '/illustrations/textLogo.svg'}></img>, the brand new way to manage shared flats and accomodation - together.</h1>
           <MailchimpForm/>
         </div>
         <div className="img-container">

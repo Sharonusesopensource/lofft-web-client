@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Slider from "./Slider"
 
 const PeoplePopup = ({person}) => {
@@ -5,10 +7,11 @@ const PeoplePopup = ({person}) => {
     <div className="member-frame">
       <div className="member-header">
         <h1>{person.name}</h1>
-        <p>{person.description}</p>
+        <p className="member-description">{person.description}</p>
       </div>
       <div className="member-frame-content">
         <div className="member-interests">
+          <p className="interest-title">What does {person.name} like?</p>
           <Slider question="animal" value={person.animal} />
           <Slider question="vacation" value={person.vacation} />
           <Slider question="drink" value={person.drink} />

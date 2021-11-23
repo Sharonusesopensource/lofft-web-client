@@ -33,8 +33,9 @@ let CountDownToLaunch = () => {
   }, []);
 
   return (
-    <h3 style={{width: "20rem"}}>
-      {`${dateTarget[0]}D - ${dateTarget[1]}H - ${dateTarget[2]}M - ${dateTarget[3]}S until 🚀`}
+    <h3 id="countdown">
+      {`${dateTarget[0]}d : ${dateTarget[1]}h : ${dateTarget[2]}m`}
+      <span>until 🚀</span>
     </h3>
   );
 };

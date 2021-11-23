@@ -1,31 +1,37 @@
 .banner {
+  margin-bottom: 1rem;
+
   h1 {
-    font-size: 3rem;
-  }
-
-  form {
-    display: flex;
-    width: 100%;
-  }
-
-  input{
-    margin-right: 2rem;
     font-size: 1.5rem;
-    width: 20rem;
-    border: 3px solid $lavender50;
+    font-weight: 500;
+    margin-top: 3rem;
+    line-height: 1.1;
+  }
+
+  input {
+    margin-right: 2rem;
+    font-size: 1.25rem;
+    width: 100%;
+    border: 2px solid $lavender50;
     border-radius: 0.5rem;
-    padding: 0 1rem;
+    padding: 1rem 1rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
 
-  input:focus{
+  input:focus {
     outline: none;
   }
 
   .emailform-message {
-    font-size: 1.4rem;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+  }
+
+  .button {
+    margin-top: 1rem;
   }
 }
 
@@ -34,12 +40,54 @@
   align-items: center;
 }
 
-.people {
-  padding: 0 7rem;
-  box-sizing: border-box;
-  width: 100%;
+.intext-logo {
+  height: 2rem;
 }
 
-.intext-logo {
-  padding-left: 1rem;
+.people {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+
+    margin-bottom: 2rem;
+
+    h1 {
+      font-weight: 700;
+      font-size: 2.5rem;
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+    }
+
+    input {
+      width: 70%;
+      margin-right: 0.5rem;
+    }
+
+    .emailform-message {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .button {
+      margin-top: 0;
+      font-size: 1.5rem;
+    }
+  }
+
+  .intext-logo {
+    height: 3rem;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .people {
+    display: block;
+    width: 400px;
+  }
 }

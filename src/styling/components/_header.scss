@@ -1,11 +1,10 @@
 header {
-  display: flex;
-  justify-content: space-between;
   color: black;
 }
 
 .logo {
-  height: 3rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
 }
 
 .nav {
@@ -21,12 +20,41 @@ header {
   border-bottom: 3px solid $lavender50;
 }
 
-
-.nav > *{
+.nav > * {
   margin: 0 1rem;
   border-bottom: 3px solid transparent;
 }
 
 .nav-active {
   border-bottom: 3px solid $lavender;
+}
+
+#countdown {
+  width: 375px;
+  text-align: center;
+  background-color: $mint;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1rem;
+
+  span {
+    margin-left: 0.5rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+  }
+
+  #countdown {
+    background-color: transparent;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+  }
 }

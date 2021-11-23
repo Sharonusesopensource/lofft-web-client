@@ -1,18 +1,12 @@
-.person-modal {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  background: rgb(255, 255, 255);
-  background: linear-gradient(0deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4542191876750701) 13%, rgba(255, 255, 255, 1) 25%, rgba(255, 255, 255, 1) 75%, rgba(255, 255, 255, 0.47942927170868344) 88%, rgba(255, 255, 255, 0) 100%);
+.member-description {
+  text-align: left;
+  margin: 1rem -2rem;
 }
 
 .member-frame-content {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .modal-avatar {
@@ -33,10 +27,18 @@
   width: 80%;
   text-align: center;
   margin: auto;
+
+  h1 {
+    margin-top: 0;
+  }
 }
 
 .member-interests {
-  margin-top: -70px;
+  display: none;
+}
+
+.interest-title {
+  font-weight: bold;
 }
 
 .social-icon {
@@ -44,9 +46,9 @@
   padding: 0 1rem;
 }
 
-#close-model-icon {
-  position: absolute;
-  right: 2rem;
-  top: 1.5rem;
-  height: 48px;
+@media screen and (min-width: 768px) {
+  .member-interests {
+    display: block;
+    margin-right: 3rem;
+  }
 }
