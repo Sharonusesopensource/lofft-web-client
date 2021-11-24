@@ -32,11 +32,11 @@
       "name": "Adam",
       "role": "Co-founder",
       "image": "adam.png",
-      "description": "",
-      "animal": 6,
-      "vacation": 6,
-      "drink": 6,
-      "media": 6,
+      "description": "Adam has successfully founded a Recruitment Company at the age of 26 and established it as one of the most prolific hidden champions within the Data & Analytics niche. He was able to turn a starting capital of only 10k to an overall revenue of 520k € within 4 years. He has a proven track record of managing teams as well as having the right gut instinct. Considers himself a passionate digital nomad who loves coding.",
+      "animal": 2,
+      "vacation": 3,
+      "drink": 3,
+      "media": 4,
       "food": 6,
       "links": []
     },
@@ -50,7 +50,18 @@
       "drink": 6,
       "media": 5,
       "food": 2,
-      "links": []
+      "links": [
+        {
+          "icon": "linkedin.svg",
+          "url": "https://www.linkedin.com/in/james-hibbeard/",
+          "alt": "Linked In"
+        },
+        {
+          "icon": "github.svg",
+          "url": "https://github.com/jhibbeard89/",
+          "alt": "GitHub"
+        }
+      ]
     },
     {
       "name": "Valentin",
