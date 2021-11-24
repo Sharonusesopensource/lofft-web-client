@@ -1,7 +1,7 @@
 @import "../../styling/components/_colors.scss";
 .tilerow {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
