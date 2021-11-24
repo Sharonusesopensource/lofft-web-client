@@ -27,6 +27,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     const webhookUrl = process.env.REACT_APP_CONTACTFORM_WEBHOOK;
+    console.log(webhookUrl);
 
     const data = {
       text: `Name: ${name} \n${email} \n${message}${
