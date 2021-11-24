@@ -6,7 +6,6 @@ import lovelofft2 from "./assets/illustrations/lovelofft2.svg";
 import nevermissparty from "./assets/icons/nevermissparty.png";
 import magnifier from "./assets/illustrations/magnifier.svg";
 
-console.log(moneyPlusLoft);
 export const popups = {
   meetYourPeople: {
     title: "Meet your people",
