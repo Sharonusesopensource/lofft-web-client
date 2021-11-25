@@ -3,8 +3,14 @@ import "./styling/App.scss";
 import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage";
 import Modal from "./components/Modal/Modal";
-
+import TagManager from "react-gtm-module";
 import { useState } from "react";
+
+const tagManagerArgs = {
+  gtmId: "GTM-M628J8Q",
+};
+
+TagManager.initialize(tagManagerArgs);
 
 function App() {
   const [showModal, setShowModal] = useState(false);
