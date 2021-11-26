@@ -1,0 +1,33 @@
+@import "../../styling/components/_colors.scss";
+
+.cookiebanner {
+  background-color: $mint;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  align-items: center;
+  padding: 1rem;
+  box-sizing: border-box;
+
+  p {
+    margin: 0;
+    color: white;
+  }
+}
+
+.cookie-buttons {
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .cookiebanner {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .cookiebanner {
+    display: flex;
+  }
+}
