@@ -1,18 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./styling/App.scss";
 import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage";
 import Modal from "./components/Modal/Modal";
 import TagManager from "react-gtm-module";
 import { useState } from "react";
+import Cookies from 'universal-cookie';
+
+const cookies = new Cookies();
 
 const tagManagerArgs = {
   gtmId: "GTM-M628J8Q",
 };
 
-TagManager.initialize(tagManagerArgs);
 
 function App() {
+
+  useEffect(() => {
+    console.log("GTM CHECK")
+    if(cookies.get('cookie-consent') === "true") {
+      console.log("accepted")
+      TagManager.initialize(tagManagerArgs);
+    } else {
+      console.log("denied/unset")
+    }
+  }, [])
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({ type: null, key: null });
   const toggleModal = () => {
