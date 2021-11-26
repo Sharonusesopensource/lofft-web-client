@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./styling/App.scss";
 import Header from "./components/Header/Header";
 import LandingPage from "./pages/LandingPage";
+import CookieBanner from "./components/Banner/CookieBanner"
 import Modal from "./components/Modal/Modal";
 import TagManager from "react-gtm-module";
 import { useState } from "react";
@@ -41,6 +42,7 @@ function App() {
       <Header />
       <LandingPage setModal={setModal} />
       {showModal && <Modal data={modalData} toggleModal={toggleModal} />}
+      <CookieBanner />
     </div>
   );
 }

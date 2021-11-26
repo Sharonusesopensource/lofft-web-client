@@ -1,0 +1,9 @@
+@import "../../styling/components/_colors.scss";
+
+.cookiebanner {
+  background-color: $mint;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
