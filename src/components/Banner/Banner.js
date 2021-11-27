@@ -10,7 +10,7 @@ const Banner = () => {
         <div>
           <h1>
             <img className="intext-logo" alt="lofft" src={textLogo}></img>, the
-            brand new way to manage shared flats and accomodation - together.
+            brand new way to manage shared flats and accommodation - together.
           </h1>
           <MailchimpForm />
         </div>
