@@ -2,9 +2,13 @@ import Button from "../Button/Button";
 import React from "react";
 import "./TaglineTile.scss";
 import { scrollDissable } from "../../scrolltoggle";
+import { useTranslation } from 'react-i18next';
+
 const tagBottom = { position: "absolute", bottom: 30, left: 0, right: 0 };
 
 const Taglines = ({ setModal }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="taglines">
       <div className="tilerow">
@@ -16,11 +20,7 @@ const Taglines = ({ setModal }) => {
             })`,
           }}
         >
-          <h3 style={{ color: "white" }}>
-            Meet your
-            <br />
-            people
-          </h3>
+          <h3 style={{ color: "white" }} dangerouslySetInnerHTML={{__html: t('taglines.meetYourPeople')}}/>
           <Button
             style={{ margin: "0 auto", ...tagBottom }}
             color="white"
@@ -29,23 +29,11 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "meetYourPeople" });
             }}
           >
-            Tell me how
+            {t('taglines.buttonMeetYourPeople')}
           </Button>
         </div>
         <div className="tagline tile-half tile-white">
-          <h3 style={{ color: "black" }}>
-            No more
-            <br />
-            <span role="img" aria-label="exploding head">
-              🤯
-            </span>
-            <br />
-            because of
-            <br />
-            <span role="img" aria-label="euro banknote">
-              💶
-            </span>
-          </h3>
+          <h3 style={{ color: "black" }} dangerouslySetInnerHTML={{__html: t('taglines.noMoreHeadaches')}}/>
           <Button
             style={{ margin: "0 auto", ...tagBottom }}
             color="lavender"
@@ -54,7 +42,7 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "noMoreHeadaches" });
             }}
           >
-            What do you mean?
+            {t('taglines.buttonNoMoreHeadaches')}
           </Button>
         </div>
       </div>
@@ -70,13 +58,7 @@ const Taglines = ({ setModal }) => {
           }}
         >
           <div className="tag-right">
-            <h3 style={{ color: "white" }}>
-              Find the
-              <br />
-              Lofft of
-              <br />
-              your life
-            </h3>
+            <h3 style={{ color: "white" }} dangerouslySetInnerHTML={{__html: t('taglines.findTheLofftOfYourLife')}}/>
             <Button
               style={{ margin: "0 auto", ...tagBottom }}
               color="lavender"
@@ -85,7 +67,7 @@ const Taglines = ({ setModal }) => {
                 setModal({ type: "tag", key: "findTheLofftOfYourLife" });
               }}
             >
-              Tell me how!
+              {t('taglines.buttonFindTheLofftOfYourLife')}
             </Button>
           </div>
         </div>
@@ -96,14 +78,7 @@ const Taglines = ({ setModal }) => {
           className="tagline tile-half tile-white"
           style={{ position: "relative" }}
         >
-          <h3 style={{ color: "black" }}>
-            <span role="img" aria-label="calendar">
-              📅
-            </span>
-            <br />
-            Never miss a<br />
-            party
-          </h3>
+          <h3 style={{ color: "black" }} dangerouslySetInnerHTML={{__html: t('taglines.neverMissAParty')}}/>
           <div
             style={{
               position: "absolute",
@@ -128,7 +103,7 @@ const Taglines = ({ setModal }) => {
                 setModal({ type: "tag", key: "neverMissAParty" });
               }}
             >
-              How?
+              {t('taglines.buttonNeverMissAParty')}
             </Button>
             <h3 className="vflip" style={{ margin: 0, fontSize: "4rem" }}>
               <span role="img" aria-label="party popper">
@@ -145,11 +120,7 @@ const Taglines = ({ setModal }) => {
             })`,
           }}
         >
-          <h3 style={{ color: "white" }}>
-            Discover great
-            <br />
-            places to live
-          </h3>
+          <h3 style={{ color: "white" }} dangerouslySetInnerHTML={{__html: t('taglines.discoverGreatPlacesToLive')}}/>
           <Button
             style={{ margin: "0 auto", height: "1rem", ...tagBottom }}
             color="white"
@@ -158,7 +129,7 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "discoverGreatPlacesToLive" });
             }}
           >
-            Tell me how
+            {t('taglines.buttonDiscoverGreatPlacesToLive')}
           </Button>
         </div>
       </div>

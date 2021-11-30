@@ -11,7 +11,7 @@
     "textPlaceholder": "Text description",
     "submit": "Send",
     "success": "Message Sent!",
-    "failiure": "There was an error.  Please try again later."
+    "failiure": "There was an error. Please try again later."
   },
   "cookieBanner": {
     "cta": "Want some cookies? We use cookies to ensure that we give you the best experience on our website, Please let us know if you agree to our cookies.",
@@ -31,19 +31,31 @@
     "emailPlaceholder": "Email",
     "submit": "Sign up"
   },
+  "footer": {
+    "contact": "Contact us",
+    "follow": "Follow us",
+    "made": "Made with",
+    "berlin": "in Berlin"
+  },
   "people": {
     "tagline": "We are you",
-    "descrioption1": "We've all been the new kid in town before.",
+    "description1": "We've all been the new kid in town before.",
     "description2": "Which also means we know exactly how to make your life easier.",
     "question": "who?"
   },
   "peoplePopup": {
     "question": "What does {{name}} like?"
   },
-  "footer": {
-    "contact": "Contact us",
-    "follow": "Follow us",
-    "made": "Made with",
-    "berlin": "in Berlin"
+  "taglines": {
+    "buttonMeetYourPeople": "Tell me how",
+    "meetYourPeople": "Meet your <br> people",
+    "buttonNoMoreHeadaches": "What do you mean?",
+    "noMoreHeadaches": "No more <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> because of <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
+    "buttonFindTheLofftOfYourLife" : "Tell me how!",
+    "findTheLofftOfYourLife": "Find the <br> Lofft of <br> your life",
+    "buttonDiscoverGreatPlacesToLive": "Tell me how",
+    "discoverGreatPlacesToLive": "Discover great <br> places to live",
+    "buttonNeverMissAParty": "How?",
+    "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Never miss a<br>party"
   }
 }
