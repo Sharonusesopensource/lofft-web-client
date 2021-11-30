@@ -2,6 +2,14 @@
   "banner": {
     "message": ", the brand new way to manage shared flats and accommodation - together."
   },
+  "header": {
+    "countdown": {
+      "until": "until",
+      "days": "d",
+      "hours": "h",
+      "minutes": "m"
+    }
+  },
   "emailForm": {
     "success": "Thanks for signing up!",
     "processing": "processing",
