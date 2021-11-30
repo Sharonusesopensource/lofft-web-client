@@ -2,8 +2,19 @@
   "banner": {
     "message": ", the brand new way to manage shared flats and accommodation - together."
   },
+  "contactForm": {
+    "tagline": "We listen to you",
+    "description": "Don't be a stranger drop us a line.",
+    "checkbox": "Sign me up for newsletter",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Email",
+    "textPlaceholder": "Text description",
+    "submit": "Send",
+    "success": "Message Sent!",
+    "failiure": "There was an error.  Please try again later."
+  },
   "footer": {
-    "contanct": "Contact us",
+    "contact": "Contact us",
     "follow": "Follow us",
     "made": "Made with",
     "berlin": "in Berlin"
