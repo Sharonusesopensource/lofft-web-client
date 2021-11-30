@@ -2,6 +2,13 @@
   "banner": {
     "message": ", the brand new way to manage shared flats and accommodation - together."
   },
+  "emailForm": {
+    "success": "Thanks for signing up!",
+    "processing": "processing",
+    "cta": "Be the first to get updates from us",
+    "emailPlaceholder": "Email",
+    "submit": "Sign up"
+  },
   "contactForm": {
     "tagline": "We listen to you",
     "description": "Don't be a stranger drop us a line.",
