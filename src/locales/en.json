@@ -67,15 +67,37 @@
     "question": "What does {{name}} like?"
   },
   "taglines": {
-    "buttonMeetYourPeople": "Tell me how",
     "meetYourPeople": "Meet your <br> people",
-    "buttonNoMoreHeadaches": "What do you mean?",
+    "meetYourPeopleButton": "Tell me how",
     "noMoreHeadaches": "No more <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> because of <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
-    "buttonFindTheLofftOfYourLife" : "Tell me how!",
+    "noMoreHeadachesButton": "What do you mean?",
     "findTheLofftOfYourLife": "Find the <br> Lofft of <br> your life",
-    "buttonDiscoverGreatPlacesToLive": "Tell me how",
+    "findTheLofftOfYourLifeButton" : "Tell me how!",
     "discoverGreatPlacesToLive": "Discover great <br> places to live",
-    "buttonNeverMissAParty": "How?",
-    "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Never miss a<br>party"
+    "discoverGreatPlacesToLiveButton": "Tell me how",
+    "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Never miss a<br>party",
+    "neverMissAPartyButton": "How?"
+  },
+  "taglinePopups": {
+    "meetYourPeople": {
+      "title": "Meet your people",
+      "text": "Our unique algorithm matches you with the flatmates that suit you best. You choose what's important to you — and what information you wish to share about yourself. Lofft will do the rest, and present you with a shortlist of only the best places or candidates."
+    },
+    "noMoreHeadaches": {
+      "title": "No more headaches because of money",
+      "text": "Lofft makes it easy to split bills and manage shared household finances. From monthly expenses like internet and electricity to shared grocery bills — everything can be uploaded and divided equally among flatmates."
+    },
+    "findTheLofftOfYourLife": {
+      "title": "Find the Lofft of your life",
+      "text": "Chances are, you don't want to live with just anyone. You want to find a home. Lofft enables you to get one step closer to your dream home by cutting out all the unnecessary details and bringing you together with the people and places you never knew you needed."
+    },
+    "neverMissAParty": {
+      "title": "Never miss a party!",
+      "text": "Lofft takes care of all the important stuff so that there's more time — and money — left over for you to make the most of your brand new place."
+    },
+    "discoverGreatPlacesToLive": {
+      "title": "Discover great places to live",
+      "text": "Lofft takes care of all the important stuff so that there's more time — and money — left over for you to make the most of your brand new place."
+    }
   }
 }

@@ -29,7 +29,7 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "meetYourPeople" });
             }}
           >
-            {t('taglines.buttonMeetYourPeople')}
+            {t('taglines.meetYourPeopleButton')}
           </Button>
         </div>
         <div className="tagline tile-half tile-white">
@@ -42,7 +42,7 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "noMoreHeadaches" });
             }}
           >
-            {t('taglines.buttonNoMoreHeadaches')}
+            {t('taglines.noMoreHeadachesButton')}
           </Button>
         </div>
       </div>
@@ -67,7 +67,7 @@ const Taglines = ({ setModal }) => {
                 setModal({ type: "tag", key: "findTheLofftOfYourLife" });
               }}
             >
-              {t('taglines.buttonFindTheLofftOfYourLife')}
+              {t('taglines.findTheLofftOfYourLifeButton')}
             </Button>
           </div>
         </div>
@@ -103,7 +103,7 @@ const Taglines = ({ setModal }) => {
                 setModal({ type: "tag", key: "neverMissAParty" });
               }}
             >
-              {t('taglines.buttonNeverMissAParty')}
+              {t('taglines.neverMissAPartyButton')}
             </Button>
             <h3 className="vflip" style={{ margin: 0, fontSize: "4rem" }}>
               <span role="img" aria-label="party popper">
@@ -129,7 +129,7 @@ const Taglines = ({ setModal }) => {
               setModal({ type: "tag", key: "discoverGreatPlacesToLive" });
             }}
           >
-            {t('taglines.buttonDiscoverGreatPlacesToLive')}
+            {t('taglines.discoverGreatPlacesToLiveButton')}
           </Button>
         </div>
       </div>
