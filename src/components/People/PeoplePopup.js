@@ -10,7 +10,7 @@ const PeoplePopup = ({ person }) => {
     <div className="member-frame">
       <div className="member-header">
         <h1>{person.name}</h1>
-        <p className="member-description">{person.description}</p>
+        <p className="member-description">{t(`people.${person.name}.description`)}</p>
       </div>
       <div className="member-frame-content">
         <div className="member-interests">
@@ -26,7 +26,7 @@ const PeoplePopup = ({ person }) => {
             alt={person.name}
             className="modal-avatar"
           />
-          <p>{person.role}</p>
+          <p>{t(`people.${person.name}.role`)}</p>
           <div className="member-icons">
             {person.links.map((link) => (
               <a href={`${link.url}`} target="_blank" rel="noopener noreferrer">

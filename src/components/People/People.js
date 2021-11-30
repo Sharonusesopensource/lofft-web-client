@@ -21,7 +21,7 @@ const Person = ({ person, setModal }) => {
         alt={person.name}
       />
       <p className="person-name">{person.name}</p>
-      <p className="person-role">{person.role}</p>
+      <p className="person-role">{t(`people.${person.name}.role`)}</p>
       <Button
         onClick={() => {
           scrollDissable();
