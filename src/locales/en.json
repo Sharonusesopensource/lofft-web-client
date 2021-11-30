@@ -1,5 +1,11 @@
 {
   "banner": {
     "message": ", the brand new way to manage shared flats and accommodation - together."
+  },
+  "footer": {
+    "contanct": "Contact us",
+    "follow": "Follow us",
+    "made": "Made with",
+    "berlin": "in Berlin"
   }
 }
