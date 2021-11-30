@@ -19,10 +19,10 @@
     "accept": "Accept & continue"
   },
   "countdown": {
-      "until": "until",
-      "days": "d",
-      "hours": "h",
-      "minutes": "m"
+    "until": "until",
+    "days": "d",
+    "hours": "h",
+    "minutes": "m"
   },
   "emailForm": {
     "success": "Thanks for signing up!",
@@ -30,6 +30,12 @@
     "cta": "Be the first to get updates from us",
     "emailPlaceholder": "Email",
     "submit": "Sign up"
+  },
+  "people": {
+    "tagline": "We are you",
+    "descrioption1": "We've all been the new kid in town before.",
+    "description2": "Which also means we know exactly how to make your life easier.",
+    "question": "who?"
   },
   "footer": {
     "contact": "Contact us",

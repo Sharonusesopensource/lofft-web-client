@@ -3,12 +3,16 @@ import Button from "../Button/Button";
 import peopleJson from "./people.json";
 import "./people.scss";
 import { scrollDissable } from "../../scrolltoggle";
+import { useTranslation } from 'react-i18next';
+
 const randomPeople = peopleJson.people
   .map((value) => ({ value, sort: Math.random() }))
   .sort((a, b) => a.sort - b.sort)
   .map(({ value }) => value);
 
 const Person = ({ person, setModal }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="person">
       <img
@@ -26,21 +30,23 @@ const Person = ({ person, setModal }) => {
         color="mint"
         style={{ width: "fit-content", margin: "0 auto" }}
       >
-        {person.name + " who?"}
+        {person.name + " " + t('people.question')}
       </Button>
     </div>
   );
 };
 
 const People = ({ setModal }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="people-wrapper">
-      <h3 className="section-tagline">We are you</h3>
+      <h3 className="section-tagline">{t('people.tagline')}</h3>
       <p className="section-description">
-        We've all been the new kid in town before.
+        {t('people.description1')}
       </p>
       <p className="section-description">
-        Which also means we know exactly how to make your life easier.
+        {t('people.description2')}
       </p>
       <div className="people-container">
         {randomPeople.map((person) => (
