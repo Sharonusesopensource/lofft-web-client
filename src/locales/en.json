@@ -2,21 +2,6 @@
   "banner": {
     "message": ", the brand new way to manage shared flats and accommodation - together."
   },
-  "header": {
-    "countdown": {
-      "until": "until",
-      "days": "d",
-      "hours": "h",
-      "minutes": "m"
-    }
-  },
-  "emailForm": {
-    "success": "Thanks for signing up!",
-    "processing": "processing",
-    "cta": "Be the first to get updates from us",
-    "emailPlaceholder": "Email",
-    "submit": "Sign up"
-  },
   "contactForm": {
     "tagline": "We listen to you",
     "description": "Don't be a stranger drop us a line.",
@@ -28,15 +13,28 @@
     "success": "Message Sent!",
     "failiure": "There was an error.  Please try again later."
   },
+  "cookieBanner": {
+    "cta": "Want some cookies? We use cookies to ensure that we give you the best experience on our website, Please let us know if you agree to our cookies.",
+    "deny": "I don't want cookies",
+    "accept": "Accept & continue"
+  },
+  "countdown": {
+      "until": "until",
+      "days": "d",
+      "hours": "h",
+      "minutes": "m"
+  },
+  "emailForm": {
+    "success": "Thanks for signing up!",
+    "processing": "processing",
+    "cta": "Be the first to get updates from us",
+    "emailPlaceholder": "Email",
+    "submit": "Sign up"
+  },
   "footer": {
     "contact": "Contact us",
     "follow": "Follow us",
     "made": "Made with",
     "berlin": "in Berlin"
-  },
-  "cookieBanner": {
-    "cta": "Want some cookies? We use cookies to ensure that we give you the best experience on our website, Please let us know if you agree to our cookies.",
-    "deny": "I don't want cookies",
-    "accept": "Accept & continue"
   }
 }

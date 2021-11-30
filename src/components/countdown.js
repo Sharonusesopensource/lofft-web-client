@@ -36,9 +36,9 @@ let CountDownToLaunch = () => {
 
   return (
     <h3 id="countdown">
-      {`${dateTarget[0]}${t('header.countdown.days')} : ${dateTarget[1]}${t('header.countdown.hours')} : ${dateTarget[2]}${t('header.countdown.minutes')}`}
+      {`${dateTarget[0]}${t('countdown.days')} : ${dateTarget[1]}${t('countdown.hours')} : ${dateTarget[2]}${t('countdown.minutes')}`}
       <span>
-        {t('header.countdown.until')}
+        {t('countdown.until')}
         {" "}
         <span role="img" aria-label="rocket">
           🚀
