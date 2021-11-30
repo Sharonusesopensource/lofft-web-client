@@ -29,7 +29,7 @@ const PeoplePopup = ({ person }) => {
           <p>{t(`people.${person.name}.role`)}</p>
           <div className="member-icons">
             {person.links.map((link) => (
-              <a href={`${link.url}`} target="_blank" rel="noopener noreferrer">
+              <a href={`${link.url}`} target="_blank" rel="noopener noreferrer" key={`link-${link.alt}`}>
                 <img
                   src={process.env.PUBLIC_URL + `/icons/${link.icon}`}
                   alt=""
