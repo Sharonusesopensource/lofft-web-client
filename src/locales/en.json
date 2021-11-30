@@ -37,6 +37,9 @@
     "description2": "Which also means we know exactly how to make your life easier.",
     "question": "who?"
   },
+  "peoplePopup": {
+    "question": "What does {{name}} like?"
+  },
   "footer": {
     "contact": "Contact us",
     "follow": "Follow us",

@@ -1,8 +1,11 @@
 import React from "react";
-
 import Slider from "../Slider/Slider";
 import "./peoplePopup.scss";
+import { useTranslation } from 'react-i18next';
+
 const PeoplePopup = ({ person }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="member-frame">
       <div className="member-header">
@@ -11,7 +14,7 @@ const PeoplePopup = ({ person }) => {
       </div>
       <div className="member-frame-content">
         <div className="member-interests">
-          <p className="interest-title">What does {person.name} like?</p>
+          <p className="interest-title">{t('peoplePopup.question', {name: person.name})}</p>
           <Slider question="animal" value={person.animal} />
           <Slider question="vacation" value={person.vacation} />
           <Slider question="drink" value={person.drink} />
