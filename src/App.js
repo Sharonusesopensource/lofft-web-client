@@ -8,6 +8,8 @@ import TagManager from "react-gtm-module";
 import { useState } from "react";
 import Cookies from 'universal-cookie';
 
+import './i18n';
+
 const cookies = new Cookies();
 
 const tagManagerArgs = {

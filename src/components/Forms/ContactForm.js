@@ -2,8 +2,11 @@ import React from "react";
 import { useState } from "react";
 import Button from "../Button/Button";
 import axios from "axios";
+import { useTranslation } from 'react-i18next';
 
 const ContactForm = () => {
+  const { t } = useTranslation();
+
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
@@ -45,21 +48,21 @@ const ContactForm = () => {
     });
 
     if (res.status === 200) {
-      alert("Message Sent!");
+      alert(t('contactForm.success'));
 
       setName("");
       setEmail("");
       setMessage("");
       setCheckbox(false);
     } else {
-      alert("There was an error.  Please try again later.");
+      alert(t('contactForm.failiure'));
     }
   }
 
   return (
     <div className="contactform-wrapper text-center">
-      <h3 className="section-tagline">We listen to you</h3>
-      <p className="section-description">Don't be a stranger drop us a line.</p>
+      <h3 className="section-tagline">{t('contactForm.tagline')}</h3>
+      <p className="section-description">{t('contactForm.description')}</p>
 
       <form className="contactform" onSubmit={submitForm}>
         <div className="contact-row">
@@ -68,7 +71,7 @@ const ContactForm = () => {
             type="text"
             value={name}
             onChange={handleChangeName}
-            placeholder="Your name"
+            placeholder={t('contactForm.namePlaceholder')}
             style={{ marginRight: "2rem" }}
           />
           <input
@@ -76,7 +79,7 @@ const ContactForm = () => {
             type="email"
             value={email}
             onChange={handleChangeEmail}
-            placeholder="Email"
+            placeholder={t('contactForm.emailPlaceholder')}
           />
         </div>
         <input
@@ -84,7 +87,7 @@ const ContactForm = () => {
           type="text"
           value={message}
           onChange={handleChangeMessage}
-          placeholder="Text description"
+          placeholder={t('contactForm.textPlaceholder')}
         />
         <button type="submit" style={{ display: "none" }} />
         <div className="contact-row">
@@ -94,14 +97,14 @@ const ContactForm = () => {
               onChange={handleCheckbox}
               checked={checkBox}
             />
-            <p style={{ margin: 0 }}>Sign me up for newsletter</p>
+            <p style={{ margin: 0 }}>{t('contactForm.checkbox')}</p>
           </div>
           <Button
             color="lavender"
             style={{ width: "fit-content", marginLeft: "auto" }}
             onClick={submitForm}
           >
-            Send
+            {t('contactForm.submit')}
           </Button>
         </div>
       </form>

@@ -1,17 +1,20 @@
 import React from "react";
-
 import Slider from "../Slider/Slider";
 import "./peoplePopup.scss";
+import { useTranslation } from 'react-i18next';
+
 const PeoplePopup = ({ person }) => {
+  const { t } = useTranslation();
+
   return (
     <div className="member-frame">
       <div className="member-header">
         <h1>{person.name}</h1>
-        <p className="member-description">{person.description}</p>
+        <p className="member-description">{t(`people.${person.name}.description`)}</p>
       </div>
       <div className="member-frame-content">
         <div className="member-interests">
-          <p className="interest-title">What does {person.name} like?</p>
+          <p className="interest-title">{t('peoplePopup.question', {name: person.name})}</p>
           <Slider question="animal" value={person.animal} />
           <Slider question="vacation" value={person.vacation} />
           <Slider question="drink" value={person.drink} />
@@ -23,10 +26,10 @@ const PeoplePopup = ({ person }) => {
             alt={person.name}
             className="modal-avatar"
           />
-          <p>{person.role}</p>
+          <p>{t(`people.${person.name}.role`)}</p>
           <div className="member-icons">
             {person.links.map((link) => (
-              <a href={`${link.url}`} target="_blank" rel="noopener noreferrer">
+              <a href={`${link.url}`} target="_blank" rel="noopener noreferrer" key={`link-${link.alt}`}>
                 <img
                   src={process.env.PUBLIC_URL + `/icons/${link.icon}`}
                   alt=""

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { useTranslation } from 'react-i18next';
 
 const countDownDate = new Date("Jan 1, 2022 23:59:59").getTime();
 let Calculator = (m = 1, s = 1, h = 1) => {
@@ -24,6 +25,7 @@ let timer = () => {
 };
 
 let CountDownToLaunch = () => {
+  const { t } = useTranslation();
   const [dateTarget, setDateTarget] = useState(timer());
 
   useEffect(() => {
@@ -34,9 +36,10 @@ let CountDownToLaunch = () => {
 
   return (
     <h3 id="countdown">
-      {`${dateTarget[0]}d : ${dateTarget[1]}h : ${dateTarget[2]}m`}
+      {`${dateTarget[0]}${t('countdown.days')} : ${dateTarget[1]}${t('countdown.hours')} : ${dateTarget[2]}${t('countdown.minutes')}`}
       <span>
-        until{" "}
+        {t('countdown.until')}
+        {" "}
         <span role="img" aria-label="rocket">
           🚀
         </span>

@@ -2,8 +2,11 @@ import { useState, useEffect } from "react";
 import React from "react";
 import Button from "../Button/Button";
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+import { useTranslation } from 'react-i18next';
 
 const EmailForm = ({ status, message, onValidated }) => {
+  const { t } = useTranslation();
+
   const [email, setEmail] = useState("");
   const handleChange = ({ target }) => {
     setEmail(target.value);
@@ -21,10 +24,10 @@ const EmailForm = ({ status, message, onValidated }) => {
   return (
     <div className="emailform-container">
       {status === "success" && (
-        <p className="emailform-message">Thanks for signing up!</p>
+        <p className="emailform-message">{t('emailForm.success')}</p>
       )}
       {status === "sending" && (
-        <p className="emailform-message">processing...</p>
+        <p className="emailform-message">{t('emailForm.processing')}...</p>
       )}
       {status === "error" && (
         <p
@@ -34,7 +37,7 @@ const EmailForm = ({ status, message, onValidated }) => {
         />
       )}
       {status === null && (
-        <p className="emailform-message">Be the first to get updates from us</p>
+        <p className="emailform-message">{t('emailForm.cta')}</p>
       )}
 
       <form onSubmit={handleSubmit}>
@@ -42,11 +45,11 @@ const EmailForm = ({ status, message, onValidated }) => {
           type="email"
           value={email}
           onChange={handleChange}
-          placeholder="Email"
+          placeholder={t('emailForm.emailPlaceholder')}
         />
         <button type="submit" style={{ display: "none" }} />
         <Button color="lavender" onClick={handleSubmit}>
-          Sign up
+          {t('emailForm.submit')}
         </Button>
       </form>
     </div>
