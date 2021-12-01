@@ -1,103 +1,103 @@
 {
   "banner": {
-    "message": ", die neue art to manage shared flats and accommodation - together."
+    "message": ", die neue Art WGs zu entdecken und zu managen."
   },
   "contactForm": {
-    "tagline": "We listen to you",
-    "description": "Don't be a stranger drop us a line.",
-    "checkbox": "Sign me up for newsletter",
-    "namePlaceholder": "Your name",
+    "tagline": "Wir haben immer ein Ohr offen",
+    "description": "Hab dich nicht so! Drop uns eine kurze Nachricht.",
+    "checkbox": "Melde dich für den Newsletter an",
+    "namePlaceholder": "Deine Name",
     "emailPlaceholder": "Email",
-    "textPlaceholder": "Text description",
-    "submit": "Send",
-    "success": "Message Sent!",
-    "failiure": "There was an error. Please try again later."
+    "textPlaceholder": "Deine Nachricht",
+    "submit": "Senden",
+    "success": "Versendet!",
+    "failiure": "Oops, Irgendwas ist schiefgelaufen! Versuche es nochmal."
   },
   "cookieBanner": {
-    "cta": "Want some cookies? We use cookies to ensure that we give you the best experience on our website, Please let us know if you agree to our cookies.",
-    "deny": "I don't want cookies",
-    "accept": "Accept & continue"
+    "cta": "Lust auf heiße Cookies?? Wir nutzten Cookies nur, um Dir das bestmögliche Erlebnis auf unserer Webseite zu ermöglichen.",
+    "deny": "Ich will keine Cookies",
+    "accept": "Ja, her mit den Cookies"
   },
   "countdown": {
     "until": "bis",
-    "days": "t",
-    "hours": "s",
-    "minutes": "m"
+    "days": "T",
+    "hours": "S",
+    "minutes": "M"
   },
   "emailForm": {
-    "success": "Thanks for signing up!",
-    "processing": "processing",
-    "cta": "Be the first to get updates from us",
+    "success": "Danke, willkommen im Club!",
+    "processing": "Wird bearbeitet",
+    "cta": "Bleib immer auf dem neusten Stand",
     "emailPlaceholder": "Email",
     "submit": "Sign up"
   },
   "footer": {
-    "contact": "Contact us",
-    "follow": "Follow us",
+    "contact": "Kontaktiere uns",
+    "follow": "Folge uns",
     "made": "Made with",
     "berlin": "in Berlin"
   },
   "people": {
-    "tagline": "We are you",
-    "description1": "We've all been the new kid in town before.",
-    "description2": "Which also means we know exactly how to make your life easier.",
+    "tagline": "Wir sind du",
+    "description1": "Wir alle kennen das Gefühl der/die „neue“ zu sein.",
+    "description2": "Deshalb wissen wir auch wie wir dein Leben leichter machen können.",
     "question": "who?",
     "Freddie": {
       "role": "Co-founder",
-      "description": "Freddie (Nattapon Sukprasong) is a digital product designer, specialising in product discoveries, design strategy, and creating delightful user experience & interface. With educational background in anthropology and professional experience in social research, Freddie's well-equipped with research methods to understand complex human needs."
+      "description": "Freddie (Nattapon Sukprasong) ist ein digitaler Produktdesigner, der sich auf Produktentdeckungen, Designstrategien und die Kreation von ansprechenden Benutzererfahrungen und Benutzeroberflächen spezialisiert. Dank seines Backgrounds in Anthropologie und Berufserfahrung in der Sozialforschung ist Freddie bestens mit Forschungsmethoden vertraut,  sodass er den komplexen modernen Menschen sowie seine Bedürfnisse bestens nachvollziehen kann.."
     },
     "Adam": {
       "role": "Co-founder",
-      "description": "Adam has successfully founded a Recruitment Company at the age of 26 and established it as one of the most prolific hidden champions within the Data & Analytics niche. He was able to turn a starting capital of only 10k to an overall revenue of 520k € within 4 years. He has a proven track record of managing teams as well as having the right gut instinct. Considers himself a passionate digital nomad who loves coding."
+      "description": "Adam hat im Alter von 26 Jahren erfolgreich eine Recruitment Company gegründet und diese als einen Hidden Champions in der Data & Analytics-Nische etabliert. Er konnte innerhalb von 4 Jahren aus einem Startkapital von nur 10.000 Tsd. einen Gesamtumsatz von 520 Tsd. € generieren. In dem Sinne hat Adam nicht nur einen erfolgreichen ‚Trackrecord‘, sondern auch Führungskompetenzen. Darüber hinaus liebt Adam das programmieren, was ein stückweit zu seinem digitalen Nomadenleben passt."
     },
     "James": {
       "role": "Co-founder",
-      "description": "James’ background is divided between aviation and development. Before co-founding Lofft, James worked as a First Officer for EasyJet (Europe) GmbH based at Berlin’s Tegel Airport and then Berlin Brandenburg Airport until he was made redundant in February 2021 due to the COVID-19 pandemic. Before working in aviation, James worked as a PHP and Laravel developer, working alongside and advising startups in their development journey. In 2014 James was involved in Google Startups Dublin developing a product for the aviation industry, which went on to win that round of Google Startups in Dublin. James embodies tech, vision and responsibility like no one else. He is an avid spokesman for the LGBTQ community, working with various NGOs and Charities to support and improve society."
+      "description": "James' Hintergrund ist zwischen Luftfahrt und Entwicklung aufgeteilt. Vor der Gründung von Lofft war James als First Officer für die EasyJet (Europe) GmbH am Berliner Flughafen Tegel und dann am Flughafen Berlin Brandenburg tätig, bis er im Februar 2021 aufgrund der COVID-19-Pandemie entlassen wurde. Bevor er stetig in Wolken unterwegs war, arbeitete James als PHP- und Laravel-Entwickler beriet dabei eine Vielzahl von Start-ups auf ihrem Entwicklungsweg. Im Jahr 2014 war James an einem Google Startup in Dublin beteiligt, welches ein Produkt für die Luftfahrtindustrie entwickelte. Ohne Frage verkörpert James Technologie, Vision und Verantwortung wie kein anderer. Darüber hinaus ist er ein begeisterter Sprecher der LGBTQ-Community und arbeitet stetig mit verschiedenen NGOs und Wohltätigkeitsorganisationen zusammen, um die Welt ein besser zu machen."
     },
     "Valentin": {
       "role": "Lead Developer",
-      "description": "Valentin studied computer Science at TU Berlin. He's currently teaching creative people programming at LeWagon."
+      "description": "Valentin ist code! Er liebt knackige 404’s zu lösen und versucht stetig die grenzen der Technologie zu pushen. Ob Ruby, Node oder React Vale weiß immer bescheid. Sine Liebe zur Berufung hat in ursprünglich zum Informatik Studium veranlasst, wo Ihm aber das „lahme“ Tempo schlichtweg zu langsam war. Legenden besagen, dass er eines tages ein NPM package werden könnte."
     },
     "Ivo": {
       "role": "Developer",
-      "description": "Ivo studied Business Informatics at TU Berlin but he's most passionate about silly hobby programming projects whether that's scraping data, automation or creation of bots. He loves supporting others in their journeys to learn coding and helping them find joy in programming which brought him to teaching at Le Wagon."
+      "description": "Ivo hatte eigentlich Wirtschaftsinformatik an der TU Berlin studiert. Die Trockenheit und das Tempo der Unterrichtsmaterialien konnte aber einen Mann, der sich für für alberne Hobby-Programmierprojekte, wie etwa das Scraping von Daten, oder die Automatisierung und Erstellung von Bots nicht begeistern. Ivo tankt Energie wenn er anderen auf ihrem Weg zum Erlernen des Programmierens helfen kann, wodurch er bei Le Wagon als Lehrer zu einer Institution geworden ist.."
     }
   },
   "peoplePopup": {
-    "question": "What does {{name}} like?"
+    "question": "Was mag eigentlich {{name}}?"
   },
   "taglines": {
-    "meetYourPeople": "Meet your <br> people",
-    "meetYourPeopleButton": "Tell me how",
-    "noMoreHeadaches": "No more <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> because of <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
-    "noMoreHeadachesButton": "What do you mean?",
-    "findTheLofftOfYourLife": "Find the <br> Lofft of <br> your life",
-    "findTheLofftOfYourLifeButton" : "Tell me how!",
-    "discoverGreatPlacesToLive": "Discover great <br> places to live",
-    "discoverGreatPlacesToLiveButton": "Tell me how",
-    "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Never miss a<br>party",
-    "neverMissAPartyButton": "How?"
+    "meetYourPeople": "Finde deine <br> Gang",
+    "meetYourPeopleButton": "Wie denn?",
+    "noMoreHeadaches": "Nie wieder schlaflose <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> Nächte wegen <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
+    "noMoreHeadachesButton": "Was meint ihr damit?",
+    "findTheLofftOfYourLife": "Mach dein <br> Leben <br> Loffter",
+    "findTheLofftOfYourLifeButton" : "Sag mir wie!",
+    "discoverGreatPlacesToLive": "Entdecke deine <br> Traumwohnung",
+    "discoverGreatPlacesToLiveButton": "Hä? Wie das?",
+    "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Verpasse nie wieder eine<br> Party",
+    "neverMissAPartyButton": "Wie?"
   },
   "taglinePopups": {
     "meetYourPeople": {
-      "title": "Meet your people",
-      "text": "Our unique algorithm matches you with the flatmates that suit you best. You choose what's important to you — and what information you wish to share about yourself. Lofft will do the rest, and present you with a shortlist of only the best places or candidates."
+      "title": "Finde deine Gang",
+      "text": "Unser einmaliger Algorithmus stellt sicher, dass du stets auf die richtigen Zeitgenossen triffst. Du entscheidest was dir wichtig ist und wie viel du über dich preisgeben willst. Den rest erledigt Lofft! Einfach zurücklehnen und schwups kriegst du eine Shortlist mit passenden Wohnungen oder Mitbewohnern."
     },
     "noMoreHeadaches": {
-      "title": "No more headaches because of money",
-      "text": "Lofft makes it easy to split bills and manage shared household finances. From monthly expenses like internet and electricity to shared grocery bills — everything can be uploaded and divided equally among flatmates."
+      "title": "Nie wieder schlaflose Nächte wegen Geld",
+      "text": "Lofft macht es dir einfach Rechnungen zuteilen und somit den Haushalt nach dem Motto 'Alle für einen, einer für jeden' zu schmeißen.  Von regelmäßigen Verbindlichkeiten wie Internet, oder Stromrechnungen bis hin zu Impulskäufen bei Ikea. Lofft hilft dir, dich mit einem Swipe um alles zu kümmern"
     },
     "findTheLofftOfYourLife": {
-      "title": "Find the Lofft of your life",
-      "text": "Chances are, you don't want to live with just anyone. You want to find a home. Lofft enables you to get one step closer to your dream home by cutting out all the unnecessary details and bringing you together with the people and places you never knew you needed."
+      "title": "Mach dein Leben loffter",
+      "text": "Sein wir mal ehrlich manche Konstellationen passen einfach nicht zusammen! In dem Sinne hilft dir Lofft deine WG in dein Zuhause zu wandeln. Wir managen das ganze Chaos und den ganzen Bullshit rund um die WG sodass du ganz einfach eine Wohnung finden kannst — einfach, günstig und sicher "
     },
     "neverMissAParty": {
-      "title": "Never miss a party!",
-      "text": "Lofft takes care of all the important stuff so that there's more time — and money — left over for you to make the most of your brand new place."
+      "title": "Verpasse nie wieder eine Party!",
+      "text": "Lofft kümmert sich um all den wichtigen finanziellen kram, sodass deine Finanzen immer „Tip Top“ sind.  Damit sparst du Geld und Zeit und kannst dich somit mehr auf die Wesentlichen Dinge des Lebens konzentrieren."
     },
     "discoverGreatPlacesToLive": {
-      "title": "Discover great places to live",
-      "text": "Lofft takes care of all the important stuff so that there's more time — and money — left over for you to make the most of your brand new place."
+      "title": "Entdecke deine Traumwohnung",
+      "text":  "Mittels moderner Technik wissen wir immer was gerade in deinem Kiez abgeht. Ob du einfach eine neue Bleibe suchst oder dein Rudel erwehrten möchtest. Lofft vereinfacht den Prozess, sodass du endlich finden kannst wonach du suchst"
     }
   }
 }
