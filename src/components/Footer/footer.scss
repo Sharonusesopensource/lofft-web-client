@@ -1,3 +1,5 @@
+@import "../../styling/components/_colors.scss";
+
 .contactform {
   input[type="text"],
   input[type="email"] {
@@ -34,22 +36,26 @@ footer {
   }
 
   p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
   }
 
   .footer-sections {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
   }
 
-  a {
+  .footer-link {
     color: black;
     text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    width: fit-content;
   }
 
-  .footer-section + .footer-section {
-    margin-left: 2rem;
+  .footer-link.active {
+    color: $lavender;
+    border-bottom: 2px solid $lavender;
   }
 }
 
@@ -59,8 +65,8 @@ footer {
   }
 
   footer {
-    .footer-section + .footer-section {
-      margin-left: 20rem;
+    p {
+      font-size: 1.5rem;
     }
   }
 }
