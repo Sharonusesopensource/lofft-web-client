@@ -36,13 +36,8 @@ footer {
   }
 
   p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 0.5rem;
-  }
-
-  .footer-sections {
-    display: flex;
-    justify-content: space-between;
   }
 
   .footer-link {
@@ -51,23 +46,40 @@ footer {
     font-size: 1rem;
     cursor: pointer;
     width: fit-content;
+    text-decoration: underline;
   }
 
   .footer-link.active {
     color: $lavender;
-    border-bottom: 2px solid $lavender;
+    text-decoration: underline;
+  }
+
+  .footer-link.inactive {
+    text-decoration: none;
+  }
+
+  .languages {
+    display: flex;
+  }
+
+  .languages > p {
+    margin-right: 1rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .contact-row {
+  footer {
+    .languages {
+      display: block;
+    }
+  }
+  .footer-sections {
     display: flex;
+    justify-content: space-between;
   }
 
-  footer {
-    p {
-      font-size: 1.5rem;
-    }
+  .contact-row {
+    display: flex;
   }
 }
 

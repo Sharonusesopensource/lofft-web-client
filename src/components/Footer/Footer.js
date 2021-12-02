@@ -32,8 +32,10 @@ const Footer = () => {
         </div>
         <div className="footer-section">
           <p>{t('footer.languageToggle')}</p>
-          <p className={`footer-link ${i18n.language === "en" ? "active" : ""}`} onClick={() => i18n.changeLanguage("en")}>English</p>
-          <p className={`footer-link ${i18n.language === "de" ? "active" : ""}`} onClick={() => i18n.changeLanguage("de")}>Deutsch</p>
+          <div className="languages">
+            <p className={`footer-link ${i18n.language === "en" ? "active" : "inactive"}`} onClick={() => i18n.changeLanguage("en")}>English</p>
+            <p className={`footer-link ${i18n.language === "de" ? "active" : "inactive"}`} onClick={() => i18n.changeLanguage("de")}>Deutsch</p>
+          </div>
         </div>
       </div>
       <p style={{ fontSize: "1rem", textAlign: "center", marginTop: "3rem" }}>
