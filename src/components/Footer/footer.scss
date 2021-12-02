@@ -63,16 +63,12 @@ footer {
   }
 
   .languages > p {
+    margin: 0;
     margin-right: 1rem;
   }
 }
 
 @media screen and (min-width: 768px) {
-  footer {
-    .languages {
-      display: block;
-    }
-  }
   .footer-sections {
     display: flex;
     justify-content: space-between;
