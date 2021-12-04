@@ -31,7 +31,6 @@ header {
 }
 
 #countdown {
-  width: 375px;
   text-align: center;
   background-color: $mint;
   height: 4rem;
@@ -49,13 +48,11 @@ header {
 @media screen and (min-width: 768px) {
   header {
     display: flex;
+    justify-content: space-between;
   }
 
   #countdown {
     background-color: transparent;
-    width: 100%;
     margin: 0;
-    display: flex;
-    justify-content: right;
   }
 }
