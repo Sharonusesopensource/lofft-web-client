@@ -3,7 +3,7 @@
     "message": ", die neue Art WGs zu entdecken und zu managen."
   },
   "contactForm": {
-    "tagline": "Wir haben immer ein Ohr offen",
+    "tagline": "Wir haben immer ein offenes Ohr",
     "description": "Hab dich nicht so! Drop uns eine kurze Nachricht.",
     "checkbox": "Melde dich für den Newsletter an",
     "namePlaceholder": "Deine Name",
@@ -40,7 +40,7 @@
   },
   "people": {
     "tagline": "Wir sind du",
-    "description1": "Wir alle kennen das Gefühl der/die „neue“ zu sein.",
+    "description1": "Wir alle kennen das Gefühl der/die „Neue“ zu sein.",
     "description2": "Deshalb wissen wir auch wie wir dein Leben leichter machen können.",
     "question": "who?",
     "Freddie": {
@@ -49,19 +49,19 @@
     },
     "Adam": {
       "role": "Co-founder",
-      "description": "Adam hat im Alter von 26 Jahren erfolgreich eine Recruitment Company gegründet und diese als einen Hidden Champions in der Data & Analytics-Nische etabliert. Er konnte innerhalb von 4 Jahren aus einem Startkapital von nur 10.000 Tsd. einen Gesamtumsatz von 520 Tsd. € generieren. In dem Sinne hat Adam nicht nur einen erfolgreichen ‚Trackrecord‘, sondern auch Führungskompetenzen. Darüber hinaus liebt Adam das programmieren, was ein stückweit zu seinem digitalen Nomadenleben passt."
+      "description": "Adam hat im Alter von 26 Jahren erfolgreich eine Recruitment Company gegründet und diese als einen Hidden Champion in der Data & Analytics-Nische etabliert. Er konnte innerhalb von 4 Jahren aus einem Startkapital von nur 10.000 Tsd. einen Gesamtumsatz von 520 Tsd. € generieren. In dem Sinne hat Adam nicht nur einen erfolgreichen ‚Trackrecord‘, sondern auch Führungskompetenzen. Darüber hinaus liebt Adam das Programmieren, was ein stückweit zu seinem digitalen Nomadenleben passt."
     },
     "James": {
       "role": "Co-founder",
-      "description": "James' Hintergrund ist zwischen Luftfahrt und Entwicklung aufgeteilt. Vor der Gründung von Lofft war James als First Officer für die EasyJet (Europe) GmbH am Berliner Flughafen Tegel und dann am Flughafen Berlin Brandenburg tätig, bis er im Februar 2021 aufgrund der COVID-19-Pandemie entlassen wurde. Bevor er stetig in Wolken unterwegs war, arbeitete James als PHP- und Laravel-Entwickler beriet dabei eine Vielzahl von Start-ups auf ihrem Entwicklungsweg. Im Jahr 2014 war James an einem Google Startup in Dublin beteiligt, welches ein Produkt für die Luftfahrtindustrie entwickelte. Ohne Frage verkörpert James Technologie, Vision und Verantwortung wie kein anderer. Darüber hinaus ist er ein begeisterter Sprecher der LGBTQ-Community und arbeitet stetig mit verschiedenen NGOs und Wohltätigkeitsorganisationen zusammen, um die Welt ein besser zu machen."
+      "description": "James' Hintergrund ist zwischen Luftfahrt und Entwicklung aufgeteilt. Vor der Gründung von Lofft war James als First Officer für die EasyJet (Europe) GmbH am Berliner Flughafen Tegel und dann am Flughafen Berlin Brandenburg tätig, bis er im Februar 2021 aufgrund der COVID-19-Pandemie entlassen wurde. Bevor er stetig in Wolken unterwegs war, arbeitete James als PHP- und Laravel-Entwickler beriet dabei eine Vielzahl von Start-ups auf ihrem Entwicklungsweg. Im Jahr 2014 war James an einem Google Startup in Dublin beteiligt, welches ein Produkt für die Luftfahrtindustrie entwickelte. Ohne Frage verkörpert James Technologie, Vision und Verantwortung wie kein Anderer. Darüber hinaus ist er ein begeisterter Sprecher der LGBTQ-Community und arbeitet stetig mit verschiedenen NGOs und Wohltätigkeitsorganisationen zusammen, um die Welt eine Bessere zu machen."
     },
     "Valentin": {
       "role": "Lead Developer",
-      "description": "Valentin ist code! Er liebt knackige 404’s zu lösen und versucht stetig die grenzen der Technologie zu pushen. Ob Ruby, Node oder React Vale weiß immer bescheid. Sine Liebe zur Berufung hat in ursprünglich zum Informatik Studium veranlasst, wo Ihm aber das „lahme“ Tempo schlichtweg zu langsam war. Legenden besagen, dass er eines tages ein NPM package werden könnte."
+      "description": "Valentin ist code! Er liebt knackige 404’s zu lösen und versucht stetig die Grenzen der Technologie zu pushen. Ob Ruby, Node oder React, Vale weiß immer Bescheid. Seine Berufung hat ihn ursprünglich zum Informatik Studium veranlasst, wo ihm aber das „lahme“ Tempo schlichtweg zu langsam war. Legenden besagen, dass er eines Tages ein NPM package werden könnte."
     },
     "Ivo": {
       "role": "Developer",
-      "description": "Ivo hatte eigentlich Wirtschaftsinformatik an der TU Berlin studiert. Die Trockenheit und das Tempo der Unterrichtsmaterialien konnte aber einen Mann, der sich für für alberne Hobby-Programmierprojekte, wie etwa das Scraping von Daten, oder die Automatisierung und Erstellung von Bots nicht begeistern. Ivo tankt Energie wenn er anderen auf ihrem Weg zum Erlernen des Programmierens helfen kann, wodurch er bei Le Wagon als Lehrer zu einer Institution geworden ist.."
+      "description": "Ivo hatte eigentlich Wirtschaftsinformatik an der TU Berlin studiert. Die Trockenheit und das Tempo der Unterrichtsmaterialien konnte aber einen Mann, der sich für für alberne Hobby-Programmierprojekte, wie etwa das Scraping von Daten, oder die Automatisierung und Erstellung von Bots nicht begeistern. Ivo tankt Energie, wenn er anderen auf ihrem Weg zum Erlernen des Programmierens helfen kann, wodurch er bei Le Wagon als Lehrer zu einer Institution geworden ist.."
     }
   },
   "peoplePopup": {
@@ -82,23 +82,23 @@
   "taglinePopups": {
     "meetYourPeople": {
       "title": "Finde deine Gang",
-      "text": "Unser einmaliger Algorithmus stellt sicher, dass du stets auf die richtigen Zeitgenossen triffst. Du entscheidest was dir wichtig ist und wie viel du über dich preisgeben willst. Den rest erledigt Lofft! Einfach zurücklehnen und schwups kriegst du eine Shortlist mit passenden Wohnungen oder Mitbewohnern."
+      "text": "Unser einmaliger Algorithmus stellt sicher, dass du stets auf die richtigen Zeitgenossen triffst. Du entscheidest was dir wichtig ist und wie viel du über dich preisgeben willst. Den Rest erledigt Lofft! Einfach zurücklehnen und schwups kriegst du eine Shortlist mit passenden Wohnungen oder Mitbewohnern."
     },
     "noMoreHeadaches": {
       "title": "Nie wieder schlaflose Nächte wegen Geld",
-      "text": "Lofft macht es dir einfach Rechnungen zuteilen und somit den Haushalt nach dem Motto 'Alle für einen, einer für jeden' zu schmeißen.  Von regelmäßigen Verbindlichkeiten wie Internet, oder Stromrechnungen bis hin zu Impulskäufen bei Ikea. Lofft hilft dir, dich mit einem Swipe um alles zu kümmern"
+      "text": "Lofft macht es dir einfach Rechnungen zu teilen und somit den Haushalt nach dem Motto 'Alle für einen, einer für jeden' zu schmeißen.  Von regelmäßigen Verbindlichkeiten wie Internet oder Stromrechnungen bis hin zu Impulskäufen bei Ikea. Lofft hilft dir, dich mit einem Swipe um alles zu kümmern."
     },
     "findTheLofftOfYourLife": {
       "title": "Mach dein Leben loffter",
-      "text": "Sein wir mal ehrlich manche Konstellationen passen einfach nicht zusammen! In dem Sinne hilft dir Lofft deine WG in dein Zuhause zu wandeln. Wir managen das ganze Chaos und den ganzen Bullshit rund um die WG sodass du ganz einfach eine Wohnung finden kannst — einfach, günstig und sicher "
+      "text": "Seien wir mal ehrlich: manche Konstellationen passen einfach nicht zusammen! In dem Sinne hilft dir Lofft deine WG in dein Zuhause zu verwandeln. Wir managen das ganze Chaos und den ganzen Bullshit rund um die WG, sodass du ganz einfach ein Zuhause finden kannst — einfach, günstig und sicher."
     },
     "neverMissAParty": {
       "title": "Verpasse nie wieder eine Party!",
-      "text": "Lofft kümmert sich um all den wichtigen finanziellen kram, sodass deine Finanzen immer „Tip Top“ sind.  Damit sparst du Geld und Zeit und kannst dich somit mehr auf die Wesentlichen Dinge des Lebens konzentrieren."
+      "text": "Lofft kümmert sich um all den wichtigen finanziellen Kram, sodass deine Finanzen immer „Tip Top“ sind.  Damit sparst du Geld und Zeit und kannst dich mehr auf die wesentlichen Dinge des Lebens konzentrieren."
     },
     "discoverGreatPlacesToLive": {
       "title": "Entdecke deine Traumwohnung",
-      "text":  "Mittels moderner Technik wissen wir immer was gerade in deinem Kiez abgeht. Ob du einfach eine neue Bleibe suchst oder dein Rudel erwehrten möchtest. Lofft vereinfacht den Prozess, sodass du endlich finden kannst wonach du suchst"
+      "text":  "Mittels moderner Technik wissen wir immer was gerade in deinem Kiez abgeht. Ob du einfach eine neue Bleibe suchst oder dein Rudel erweitern möchtest. Lofft vereinfacht den Prozess, sodass du endlich finden kannst wonach du suchst."
     }
   }
 }
