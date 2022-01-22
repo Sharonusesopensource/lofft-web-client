@@ -2,7 +2,7 @@
 name: Feature request
 about: Suggest an idea for this project
 title: ""
-labels: ""
+labels: "Enhancement"
 assignees: ""
 ---
 
@@ -14,36 +14,34 @@ _Use this form to outline potential new feaures or planned features in lofft_
 
 **[Notion Link]()**
 
----
+## **Feature description**
 
-## Feature description
-
-### Feature experience
+### **Feature experience**
 
 <!-- As a `visitor` ... -->
 
 -
 
-### Todo
+### **Todo**
 
 - [ ]
 
-### Potential Challenges
+### **Potential Challenges**
 
-- ***
+-
 
-## Suggested Feature
+## **Link to Figma board, images and design description**
 
-_**Please fill in bellow if you are suggesting a feature**_
+_Latest design is located on the figma board_
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**[Figma board]()**
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+### Screen shots
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+### Design Description
 
-**Additional context**
+<!--Relevent for both-->
+
+### Additional context
+
 Add any other context or screenshots about the feature request here.
