@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-const countDownDate = new Date("Mar 1, 2022 23:59:59").getTime();
+const countDownDate = new Date("Apr 02, 2022 23:59:59").getTime();
 let Calculator = (m = 1, s = 1, h = 1) => {
   return 1000 * m * s * h;
 };

@@ -44,7 +44,7 @@
     "description2": "Which also means we know exactly how to make your life easier.",
     "question": "who?",
     "Freddie": {
-      "role": "Co-founder",
+      "role": "Design & User Experience",
       "description": "Freddie (Nattapon Sukprasong) is a digital product designer, specialising in product discoveries, design strategy, and creating delightful user experience & interface. With educational background in anthropology and professional experience in social research, Freddie's well-equipped with research methods to understand complex human needs."
     },
     "Adam": {
@@ -73,7 +73,7 @@
     "noMoreHeadaches": "No more <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> because of <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
     "noMoreHeadachesButton": "What do you mean?",
     "findTheLofftOfYourLife": "Find the <br> Lofft of <br> your life",
-    "findTheLofftOfYourLifeButton" : "Tell me how!",
+    "findTheLofftOfYourLifeButton": "Tell me how!",
     "discoverGreatPlacesToLive": "Discover great <br> places to live",
     "discoverGreatPlacesToLiveButton": "Tell me how",
     "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Never miss a<br>party",

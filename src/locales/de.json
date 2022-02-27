@@ -44,7 +44,7 @@
     "description2": "Deshalb wissen wir auch wie wir dein Leben leichter machen können.",
     "question": "who?",
     "Freddie": {
-      "role": "Co-founder",
+      "role": "Design & Benutzererfahrung",
       "description": "Freddie (Nattapon Sukprasong) ist ein digitaler Produktdesigner, der sich auf Produktentdeckungen, Designstrategien und die Kreation von ansprechenden Benutzererfahrungen und Benutzeroberflächen spezialisiert. Dank seines Backgrounds in Anthropologie und Berufserfahrung in der Sozialforschung ist Freddie bestens mit Forschungsmethoden vertraut,  sodass er den komplexen modernen Menschen sowie seine Bedürfnisse bestens nachvollziehen kann.."
     },
     "Adam": {
@@ -54,14 +54,6 @@
     "James": {
       "role": "Co-founder",
       "description": "James' Hintergrund ist zwischen Luftfahrt und Entwicklung aufgeteilt. Vor der Gründung von Lofft war James als First Officer für die EasyJet (Europe) GmbH am Berliner Flughafen Tegel und dann am Flughafen Berlin Brandenburg tätig, bis er im Februar 2021 aufgrund der COVID-19-Pandemie entlassen wurde. Bevor er stetig in Wolken unterwegs war, arbeitete James als PHP- und Laravel-Entwickler beriet dabei eine Vielzahl von Start-ups auf ihrem Entwicklungsweg. Im Jahr 2014 war James an einem Google Startup in Dublin beteiligt, welches ein Produkt für die Luftfahrtindustrie entwickelte. Ohne Frage verkörpert James Technologie, Vision und Verantwortung wie kein Anderer. Darüber hinaus ist er ein begeisterter Sprecher der LGBTQ-Community und arbeitet stetig mit verschiedenen NGOs und Wohltätigkeitsorganisationen zusammen, um die Welt eine Bessere zu machen."
-    },
-    "Valentin": {
-      "role": "Lead Developer",
-      "description": "Valentin ist code! Er liebt knackige 404’s zu lösen und versucht stetig die Grenzen der Technologie zu pushen. Ob Ruby, Node oder React, Vale weiß immer Bescheid. Seine Berufung hat ihn ursprünglich zum Informatik Studium veranlasst, wo ihm aber das „lahme“ Tempo schlichtweg zu langsam war. Legenden besagen, dass er eines Tages ein NPM package werden könnte."
-    },
-    "Ivo": {
-      "role": "Developer",
-      "description": "Ivo hatte eigentlich Wirtschaftsinformatik an der TU Berlin studiert. Die Trockenheit und das Tempo der Unterrichtsmaterialien konnte aber einen Mann, der sich für für alberne Hobby-Programmierprojekte, wie etwa das Scraping von Daten, oder die Automatisierung und Erstellung von Bots nicht begeistern. Ivo tankt Energie, wenn er anderen auf ihrem Weg zum Erlernen des Programmierens helfen kann, wodurch er bei Le Wagon als Lehrer zu einer Institution geworden ist.."
     }
   },
   "peoplePopup": {
@@ -73,7 +65,7 @@
     "noMoreHeadaches": "Nie wieder schlaflose <br> <span role=\"img\" aria-label=\"exploding head\">🤯</span> <br> Nächte wegen <br> <span role=\"img\" aria-label=\"euro banknote\">💶</span>",
     "noMoreHeadachesButton": "Was meint ihr damit?",
     "findTheLofftOfYourLife": "Mach dein <br> Leben <br> Loffter",
-    "findTheLofftOfYourLifeButton" : "Sag mir wie!",
+    "findTheLofftOfYourLifeButton": "Sag mir wie!",
     "discoverGreatPlacesToLive": "Entdecke deine <br> Traumwohnung",
     "discoverGreatPlacesToLiveButton": "Hä? Wie das?",
     "neverMissAParty": "<span role=\"img\" aria-label=\"calendar\">📅</span><br>Verpasse nie wieder eine<br> Party",
@@ -98,7 +90,7 @@
     },
     "discoverGreatPlacesToLive": {
       "title": "Entdecke deine Traumwohnung",
-      "text":  "Mittels moderner Technik wissen wir immer was gerade in deinem Kiez abgeht. Ob du einfach eine neue Bleibe suchst oder dein Rudel erweitern möchtest. Lofft vereinfacht den Prozess, sodass du endlich finden kannst wonach du suchst."
+      "text": "Mittels moderner Technik wissen wir immer was gerade in deinem Kiez abgeht. Ob du einfach eine neue Bleibe suchst oder dein Rudel erweitern möchtest. Lofft vereinfacht den Prozess, sodass du endlich finden kannst wonach du suchst."
     }
   }
 }
