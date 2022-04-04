@@ -10,7 +10,7 @@ const Header = () => {
         alt="Lofft Logo"
         className="logo"
       />
-      <CountDownToLaunch />
+      {/* <CountDownToLaunch /> */}
     </header>
   );
 };
