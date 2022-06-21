@@ -49,12 +49,12 @@ footer {
     text-decoration: underline;
   }
 
-  .footer-link.active {
+  .footer-link.inactive {
     color: $lavender;
     text-decoration: underline;
   }
 
-  .footer-link.inactive {
+  .footer-link.active {
     text-decoration: none;
   }
 
