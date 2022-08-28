@@ -6,13 +6,16 @@ labels: "Enhancement"
 assignees: ""
 ---
 
-<!-- V1.1 -->
+<!-- V1.2 -->
 
 # Feature Request
 
 _Use this form to outline potential new feaures or planned features in lofft_
 
-**[Notion Link]()**
+**[Assana Link]()**
+
+### Linked Issues and PR
+* [Linked Issue]()
 
 ## **Feature description**
 
